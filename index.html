@@ -28,7 +28,7 @@
   main { max-width: 720px; margin: 0 auto; padding: 32px 16px 48px; }
   h1 { font-size: clamp(1.6rem, 5vw, 2.2rem); line-height: 1.15; margin: 0 0 8px; text-wrap: balance; }
   .lede { color: var(--muted); margin: 0 0 24px; }
-  form { display: flex; gap: 8px; flex-wrap: wrap; align-items: end; }
+  #lookup { display: flex; gap: 8px; flex-wrap: wrap; align-items: end; }
   label { display: block; font-weight: 600; margin-bottom: 6px; }
   .field { flex: 1 1 180px; }
   input[type="text"] {
@@ -67,6 +67,26 @@
   .email-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 4px; }
   .email-row a { color: var(--accent); font-weight: 600; overflow-wrap: anywhere; }
   .fine { color: var(--muted); font-size: 0.88rem; margin: 6px 0 0; }
+  button.small.solid { background: var(--accent); color: var(--accent-text); }
+  .compose {
+    background: var(--surface); border: 2px solid var(--accent); border-radius: 10px;
+    padding: 16px; margin: -4px 0 16px;
+  }
+  .compose h3 { margin: 0 0 2px; font-size: 1.15rem; }
+  .compose .to { color: var(--muted); font-size: 0.9rem; margin: 0 0 12px; overflow-wrap: anywhere; }
+  .cfield { margin-bottom: 12px; }
+  .cfield label { font-size: 0.95rem; }
+  .compose input[type="text"], .compose textarea {
+    width: 100%; font: inherit; font-size: 1rem; letter-spacing: normal; padding: 8px 10px;
+    border: 2px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text);
+  }
+  .compose textarea { min-height: 9em; resize: vertical; display: block; }
+  .letter { color: var(--muted); font-size: 0.95rem; margin: 6px 0; white-space: pre-line; }
+  .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .actions button { padding: 10px 14px; font-size: 0.95rem; }
+  .actions button.ghost { background: transparent; color: var(--accent); }
+  .cstatus { font-size: 0.9rem; margin: 10px 0 0; min-height: 1.2em; }
+  .cstatus.error { color: var(--rep); font-weight: 600; }
   .outgoing { border-top: 1px dashed var(--line); margin-top: 12px; padding-top: 10px; font-size: 0.95rem; }
   footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.88rem; }
   footer a, .notice a, .sub a { color: var(--accent); }
@@ -76,7 +96,7 @@
 <body>
 <main>
   <h1>Who represents me in the Texas Legislature?</h1>
-  <p class="lede">Enter your ZIP code to find your Texas state representative and state senator, with their email addresses. Updated with the November 3, 2026 election results.</p>
+  <p class="lede">Enter your ZIP code to find your Texas state representative and state senator, then write them a message. Updated with the November 3, 2026 election results.</p>
 
   <form id="lookup" novalidate>
     <div class="field">
@@ -93,7 +113,7 @@
   <footer>
     <p><strong>About this data.</strong> Winners come from the Texas Secretary of State's returns for the November 3, 2026 general election, retrieved <span id="retrieved">November 12, 2026</span>. Results are unofficial until canvassed. Members elected in 2026 take office when the Legislature convenes on January 12, 2027.</p>
     <p>ZIP-to-district matches come from the Texas Legislative Council's "ZIP Codes by District" reports for the current House (PLANH2316) and Senate (PLANS2168) maps. Many ZIP codes span more than one district, so this tool shows every district a ZIP touches. To be certain, look up your street address at <a href="https://wrm.capitol.texas.gov/home">Who Represents Me</a>.</p>
-    <p>Email addresses for sitting members come from <a href="https://openstates.org/">Open States</a>. This site is not affiliated with the State of Texas. It stores nothing and sends your ZIP code nowhere.</p>
+    <p>Email addresses for sitting members come from <a href="https://openstates.org/">Open States</a>. This site is not affiliated with the State of Texas. Messages are written and sent from your own email account. This site never sees them, stores nothing, and sends your ZIP code nowhere.</p>
   </footer>
 </main>
 
@@ -107,6 +127,8 @@
   var input = document.getElementById("zip");
   var message = document.getElementById("message");
   var results = document.getElementById("results");
+  var currentZip = "";
+  var composer = null;
 
   function loadData() {
     if (!dataPromise) {
@@ -137,9 +159,16 @@
     return new Date(p[0], p[1] - 1, p[2]).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
   }
 
-  function emailRow(email) {
+  function emailRow(email, person) {
     var row = el("div", "email-row");
     row.appendChild(link("mailto:" + email, email));
+    if (person) {
+      var w = el("button", "small solid", "Write a message");
+      w.type = "button";
+      w.setAttribute("aria-label", "Write a message to " + person.name);
+      w.addEventListener("click", function () { openComposer(person, row); });
+      row.appendChild(w);
+    }
     if (navigator.clipboard) {
       var b = el("button", "small", "Copy");
       b.type = "button";
@@ -153,6 +182,117 @@
       row.appendChild(b);
     }
     return row;
+  }
+
+  function buildComposer() {
+    var c = { person: null };
+    var f = el("form", "compose");
+    f.noValidate = true;
+    c.form = f;
+    c.title = el("h3");
+    c.title.tabIndex = -1;
+    c.to = el("p", "to");
+    f.appendChild(c.title);
+    f.appendChild(c.to);
+
+    function field(labelText, control, id) {
+      var w = el("div", "cfield");
+      var l = el("label", null, labelText);
+      l.htmlFor = id;
+      control.id = id;
+      w.appendChild(l);
+      w.appendChild(control);
+      f.appendChild(w);
+      return control;
+    }
+    c.name = field("Your name", el("input"), "c-name");
+    c.name.type = "text";
+    c.name.autocomplete = "name";
+    c.subject = field("Subject", el("input"), "c-subject");
+    c.subject.type = "text";
+    c.subject.maxLength = 150;
+    c.subject.value = "Message from a constituent";
+
+    c.greeting = el("p", "letter");
+    f.appendChild(c.greeting);
+    c.message = field("Your message", el("textarea"), "c-message");
+    c.message.placeholder = "Say what you are writing about, what you want them to do, and why it matters to you.";
+    c.signoff = el("p", "letter");
+    f.appendChild(c.signoff);
+    c.name.addEventListener("input", function () { updateLetter(c); });
+
+    var actions = el("div", "actions");
+    var send = el("button", null, "Open in my email app");
+    send.type = "submit";
+    var gmail = el("button", "ghost", "Open in Gmail");
+    gmail.type = "button";
+    var copy = el("button", "ghost", "Copy message");
+    copy.type = "button";
+    var close = el("button", "ghost", "Close");
+    close.type = "button";
+    [send, gmail, copy, close].forEach(function (b) { actions.appendChild(b); });
+    f.appendChild(actions);
+    c.status = el("p", "cstatus");
+    c.status.setAttribute("role", "status");
+    f.appendChild(c.status);
+    f.appendChild(el("p", "fine", "This opens a draft in your own email, addressed and filled in. Nothing is sent until you press send there."));
+
+    function say(text, isError) {
+      c.status.textContent = text;
+      c.status.className = "cstatus" + (isError ? " error" : "");
+    }
+    function ready() {
+      if (!c.name.value.trim()) { say("Please add your name.", true); c.name.focus(); return false; }
+      if (!c.subject.value.trim()) { say("Please add a subject.", true); c.subject.focus(); return false; }
+      if (!c.message.value.trim()) { say("Please write your message.", true); c.message.focus(); return false; }
+      return true;
+    }
+    function body() {
+      return c.greeting.textContent + "\n\n" + c.message.value.trim() + "\n\n" + c.signoff.textContent;
+    }
+    f.addEventListener("submit", function (e) {
+      e.preventDefault();
+      if (!ready()) return;
+      var url = "mailto:" + c.person.email + "?subject=" + encodeURIComponent(c.subject.value.trim()) +
+        "&body=" + encodeURIComponent(body().replace(/\n/g, "\r\n"));
+      say(url.length > 1900
+        ? "Opening your email app. This is a long message, so if it arrives cut off, use Copy message and paste it in."
+        : "Opening your email app. If nothing happens, use Open in Gmail or Copy message.");
+      window.location.href = url;
+    });
+    gmail.addEventListener("click", function () {
+      if (!ready()) return;
+      window.open("https://mail.google.com/mail/?view=cm&fs=1&to=" + encodeURIComponent(c.person.email) +
+        "&su=" + encodeURIComponent(c.subject.value.trim()) + "&body=" + encodeURIComponent(body()), "_blank", "noopener");
+      say("Opened a Gmail draft in a new tab.");
+    });
+    copy.addEventListener("click", function () {
+      if (!ready()) return;
+      if (!navigator.clipboard) { say("Copying is not available in this browser.", true); return; }
+      navigator.clipboard.writeText(body()).then(function () {
+        say("Message copied. Paste it into an email to " + c.person.email + ".");
+      }, function () { say("Could not copy the message.", true); });
+    });
+    close.addEventListener("click", function () { f.remove(); });
+    return c;
+  }
+
+  function updateLetter(c) {
+    if (!c.person) return;
+    c.greeting.textContent = "Dear " + (c.person.senate ? "Senator " : "Representative ") + c.person.name + ",";
+    c.signoff.textContent = "Sincerely,\n" + (c.name.value.trim() || "[your name]") + "\nZIP code " + currentZip;
+  }
+
+  function openComposer(person, row) {
+    if (!composer) composer = buildComposer();
+    composer.person = person;
+    composer.title.textContent = "Write to " + person.name;
+    composer.to.textContent = "To: " + person.email;
+    composer.status.textContent = "";
+    updateLetter(composer);
+    row.closest(".card").after(composer.form);
+    composer.form.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    composer.title.focus({ preventScroll: true });
   }
 
   function card(m, title, share, termStart) {
@@ -170,7 +310,8 @@
     if (m.close) c.appendChild(el("span", "badge", "Very close race · recount possible"));
 
     if (m.email) {
-      c.appendChild(emailRow(m.email));
+      // A newly elected member's address does not work yet, so no compose button until they are seated
+      c.appendChild(emailRow(m.email, isElect ? null : { name: m.name, email: m.email, senate: title === "Texas Senate" }));
       if (!m.email_verified) {
         c.appendChild(el("p", "fine", isElect
           ? "Expected address, based on the Legislature's standard format. It is not confirmed and will not work until the member is sworn in."
@@ -184,7 +325,7 @@
     if (isElect && m.outgoing) {
       var o = el("div", "outgoing");
       o.appendChild(el("div", null, "In office until then: " + m.outgoing.name + (m.outgoing.party ? " (" + (PARTY[m.outgoing.party] || m.outgoing.party) + ")" : "")));
-      if (m.outgoing.email) o.appendChild(emailRow(m.outgoing.email));
+      if (m.outgoing.email) o.appendChild(emailRow(m.outgoing.email, { name: m.outgoing.name, email: m.outgoing.email, senate: title === "Texas Senate" }));
       c.appendChild(o);
     }
     return c;
@@ -220,6 +361,7 @@
       return;
     }
     var term = data.leg.meta.term_start;
+    currentZip = zip;
     message.textContent = "Results for ZIP code " + zip;
     message.className = "sr-only";
     results.appendChild(section("Your state representative", "Texas House", z.h, data.leg.house, term));

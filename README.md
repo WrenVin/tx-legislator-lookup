@@ -1,6 +1,6 @@
 # Texas legislator lookup
 
-Enter a Texas ZIP code and get your state representative and state senator, with their email addresses. Updated with the November 3, 2026 general election results.
+Enter a Texas ZIP code and get your state representative and state senator, with their email addresses. Each one has a "Write a message" button that opens a prefilled draft in the visitor's own email app or Gmail. GitHub Pages cannot send email, so the visitor sends it themselves. Updated with the November 3, 2026 general election results.
 
 It is a static page (`index.html` plus two JSON files), so it runs on GitHub Pages with no server.
 
