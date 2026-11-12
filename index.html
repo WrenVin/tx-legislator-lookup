@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Who represents me in the Texas Legislature?</title>
+<meta name="description" content="Enter a Texas ZIP code to find your state representative and state senator, updated with the November 2026 election results.">
+<style>
+  :root {
+    --bg: #f6f4ef; --surface: #ffffff; --text: #1c1b19; --muted: #5f5b53;
+    --line: #dedad0; --accent: #1f4e79; --accent-text: #ffffff;
+    --rep: #b3261e; --dem: #1a56a8; --other: #5f5b53;
+    --note-bg: #fff6d9; --note-line: #e6cf7a; --focus: #c2410c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #151618; --surface: #1f2124; --text: #ecebe7; --muted: #a6a39b;
+      --line: #35383d; --accent: #8fc1f2; --accent-text: #10202f;
+      --rep: #f08a82; --dem: #8db8f5; --other: #a6a39b;
+      --note-bg: #33290c; --note-line: #6e5a1c; --focus: #fdba74;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 48px; }
+  h1 { font-size: clamp(1.6rem, 5vw, 2.2rem); line-height: 1.15; margin: 0 0 8px; text-wrap: balance; }
+  .lede { color: var(--muted); margin: 0 0 24px; }
+  form { display: flex; gap: 8px; flex-wrap: wrap; align-items: end; }
+  label { display: block; font-weight: 600; margin-bottom: 6px; }
+  .field { flex: 1 1 180px; }
+  input[type="text"] {
+    width: 100%; font: inherit; font-size: 1.25rem; padding: 10px 12px; letter-spacing: 0.08em;
+    border: 2px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text);
+  }
+  button {
+    font: inherit; font-weight: 600; padding: 12px 20px; border-radius: 8px; cursor: pointer;
+    border: 2px solid var(--accent); background: var(--accent); color: var(--accent-text);
+  }
+  button.small {
+    padding: 4px 10px; font-size: 0.85rem; background: transparent; color: var(--accent);
+    border-width: 1px;
+  }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+  #message { margin-top: 20px; }
+  .notice {
+    background: var(--note-bg); border: 1px solid var(--note-line); border-radius: 8px;
+    padding: 12px 14px; margin: 16px 0; font-size: 0.95rem;
+  }
+  h2 { font-size: 1.15rem; margin: 32px 0 4px; }
+  .sub { color: var(--muted); font-size: 0.95rem; margin: 0 0 12px; }
+  .card {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+    padding: 16px; margin-bottom: 12px; border-left: 6px solid var(--other);
+  }
+  .card.R { border-left-color: var(--rep); }
+  .card.D { border-left-color: var(--dem); }
+  .card h3 { margin: 0; font-size: 1.3rem; line-height: 1.2; }
+  .meta { color: var(--muted); font-size: 0.95rem; margin: 2px 0 10px; }
+  .badge {
+    display: inline-block; font-size: 0.8rem; font-weight: 600; padding: 2px 8px;
+    border-radius: 999px; border: 1px solid var(--line); margin: 0 6px 6px 0;
+  }
+  .share { font-weight: 600; font-size: 0.9rem; margin: 0 0 8px; }
+  .email-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 4px; }
+  .email-row a { color: var(--accent); font-weight: 600; overflow-wrap: anywhere; }
+  .fine { color: var(--muted); font-size: 0.88rem; margin: 6px 0 0; }
+  .outgoing { border-top: 1px dashed var(--line); margin-top: 12px; padding-top: 10px; font-size: 0.95rem; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.88rem; }
+  footer a, .notice a, .sub a { color: var(--accent); }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Who represents me in the Texas Legislature?</h1>
+  <p class="lede">Enter your ZIP code to find your Texas state representative and state senator, with their email addresses. Updated with the November 3, 2026 election results.</p>
+
+  <form id="lookup" novalidate>
+    <div class="field">
+      <label for="zip">Texas ZIP code</label>
+      <input id="zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code"
+             maxlength="5" pattern="[0-9]{5}" placeholder="e.g. 78701" required>
+    </div>
+    <button type="submit">Find my legislators</button>
+  </form>
+
+  <div id="message" role="status" aria-live="polite"></div>
+  <div id="results"></div>
+
+  <footer>
+    <p><strong>About this data.</strong> Winners come from the Texas Secretary of State's returns for the November 3, 2026 general election, retrieved <span id="retrieved">November 12, 2026</span>. Results are unofficial until canvassed. Members elected in 2026 take office when the Legislature convenes on January 12, 2027.</p>
+    <p>ZIP-to-district matches come from the Texas Legislative Council's "ZIP Codes by District" reports for the current House (PLANH2316) and Senate (PLANS2168) maps. Many ZIP codes span more than one district, so this tool shows every district a ZIP touches. To be certain, look up your street address at <a href="https://wrm.capitol.texas.gov/home">Who Represents Me</a>.</p>
+    <p>Email addresses for sitting members come from <a href="https://openstates.org/">Open States</a>. This site is not affiliated with the State of Texas. It stores nothing and sends your ZIP code nowhere.</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  "use strict";
+  var PARTY = { R: "Republican", D: "Democrat", L: "Libertarian", G: "Green", I: "Independent" };
+  var WRM = "https://wrm.capitol.texas.gov/home";
+  var dataPromise = null;
+  var form = document.getElementById("lookup");
+  var input = document.getElementById("zip");
+  var message = document.getElementById("message");
+  var results = document.getElementById("results");
+
+  function loadData() {
+    if (!dataPromise) {
+      dataPromise = Promise.all([
+        fetch("data/legislators.json").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }),
+        fetch("data/zips.json").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      ]).then(function (a) { return { leg: a[0], zips: a[1] }; })
+        .catch(function (e) { dataPromise = null; throw e; });
+    }
+    return dataPromise;
+  }
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  function link(href, text) {
+    var a = el("a", null, text);
+    a.href = href;
+    return a;
+  }
+
+  function fmtDate(iso) {
+    var p = iso.split("-").map(Number);
+    return new Date(p[0], p[1] - 1, p[2]).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+  }
+
+  function emailRow(email) {
+    var row = el("div", "email-row");
+    row.appendChild(link("mailto:" + email, email));
+    if (navigator.clipboard) {
+      var b = el("button", "small", "Copy");
+      b.type = "button";
+      b.setAttribute("aria-label", "Copy " + email);
+      b.addEventListener("click", function () {
+        navigator.clipboard.writeText(email).then(function () {
+          b.textContent = "Copied";
+          setTimeout(function () { b.textContent = "Copy"; }, 1500);
+        });
+      });
+      row.appendChild(b);
+    }
+    return row;
+  }
+
+  function card(m, title, share, termStart) {
+    var seated = new Date() >= new Date(termStart + "T00:00:00");
+    var c = el("div", "card " + m.party);
+    if (share != null) c.appendChild(el("p", "share", (share < 1 ? "Less than 1" : "About " + Math.round(share)) + "% of this ZIP code's residents"));
+    c.appendChild(el("h3", null, m.name));
+    c.appendChild(el("p", "meta", title + " · District " + m.district + " · " + (PARTY[m.party] || m.party)));
+
+    var isElect = m.status === "elect" && !seated;
+    if (isElect) c.appendChild(el("span", "badge", "Newly elected · takes office " + fmtDate(m.takes_office)));
+    else if (m.status === "elect") c.appendChild(el("span", "badge", "Elected November 2026"));
+    else if (m.status === "reelected") c.appendChild(el("span", "badge", "Re-elected November 2026"));
+    else if (m.status === "holdover") c.appendChild(el("span", "badge", "Seat not on the 2026 ballot"));
+    if (m.close) c.appendChild(el("span", "badge", "Very close race · recount possible"));
+
+    if (m.email) {
+      c.appendChild(emailRow(m.email));
+      if (!m.email_verified) {
+        c.appendChild(el("p", "fine", isElect
+          ? "Expected address, based on the Legislature's standard format. It is not confirmed and will not work until the member is sworn in."
+          : "Expected address, based on the Legislature's standard format. Not yet confirmed."));
+      }
+    } else {
+      c.appendChild(el("p", "fine", "No email address on file."));
+    }
+    if (m.note && !seated) c.appendChild(el("p", "fine", m.note));
+
+    if (isElect && m.outgoing) {
+      var o = el("div", "outgoing");
+      o.appendChild(el("div", null, "In office until then: " + m.outgoing.name + (m.outgoing.party ? " (" + (PARTY[m.outgoing.party] || m.outgoing.party) + ")" : "")));
+      if (m.outgoing.email) o.appendChild(emailRow(m.outgoing.email));
+      c.appendChild(o);
+    }
+    return c;
+  }
+
+  function section(heading, title, pairs, members, termStart) {
+    var s = el("section");
+    s.appendChild(el("h2", null, heading));
+    var split = pairs.length > 1;
+    if (split) {
+      var p = el("p", "sub", "This ZIP code is split between " + pairs.length + " districts. Yours is one of these, most likely the first. ");
+      p.appendChild(link(WRM, "Confirm with your street address"));
+      p.appendChild(document.createTextNode("."));
+      s.appendChild(p);
+    }
+    pairs.forEach(function (pair) {
+      var m = members[String(pair[0])];
+      if (m) s.appendChild(card(m, title, split ? pair[1] : null, termStart));
+    });
+    return s;
+  }
+
+  function show(zip, data) {
+    results.textContent = "";
+    var z = data.zips[zip];
+    if (!z) {
+      message.textContent = "";
+      var n = el("div", "notice");
+      n.appendChild(document.createTextNode("We couldn't match " + zip + " to a Texas legislative district. It may be a PO box or business ZIP code, or not in Texas. Try the ZIP code of your home address, or "));
+      n.appendChild(link(WRM, "look up your street address"));
+      n.appendChild(document.createTextNode("."));
+      message.appendChild(n);
+      return;
+    }
+    var term = data.leg.meta.term_start;
+    message.textContent = "Results for ZIP code " + zip;
+    message.className = "sr-only";
+    results.appendChild(section("Your state representative", "Texas House", z.h, data.leg.house, term));
+    results.appendChild(section("Your state senator", "Texas Senate", z.s, data.leg.senate, term));
+  }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var zip = input.value.trim().slice(0, 5);
+    message.className = "";
+    results.textContent = "";
+    if (!/^\d{5}$/.test(zip)) {
+      message.textContent = "Please enter a 5-digit ZIP code.";
+      input.focus();
+      return;
+    }
+    message.textContent = "Looking up " + zip + "…";
+    loadData().then(function (data) { show(zip, data); }, function () {
+      message.textContent = "Sorry, the data could not be loaded. Check your connection and try again.";
+    });
+  });
+
+  input.addEventListener("input", function () {
+    input.value = input.value.replace(/\D/g, "").slice(0, 5);
+  });
+
+  loadData().catch(function () {});
+})();
+</script>
+</body>
+</html>

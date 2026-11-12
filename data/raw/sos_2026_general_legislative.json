@@ -1,0 +1,4122 @@
+{
+ "source": "Texas Secretary of State election night returns (results.texas-election.com), unofficial until canvassed",
+ "retrieved": "2026-11-12",
+ "races": [
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 1,
+   "race": "STATE REPRESENTATIVE DISTRICT 1",
+   "total_votes": 62713,
+   "candidates": [
+    {
+     "name": "SEAN HUFFMAN",
+     "first": "SEAN",
+     "last": "HUFFMAN",
+     "party": "DEM",
+     "votes": 17818
+    },
+    {
+     "name": "CHRIS SPENCER",
+     "first": "CHRIS",
+     "last": "SPENCER",
+     "party": "REP",
+     "votes": 44895
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 10,
+   "race": "STATE REPRESENTATIVE DISTRICT 10",
+   "total_votes": 85497,
+   "candidates": [
+    {
+     "name": "BRIAN HARRISON (I)",
+     "first": "BRIAN",
+     "last": "HARRISON",
+     "party": "REP",
+     "votes": 46461
+    },
+    {
+     "name": "MICHAEL MYERS",
+     "first": "MICHAEL",
+     "last": "MYERS",
+     "party": "DEM",
+     "votes": 39036
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 100,
+   "race": "STATE REPRESENTATIVE DISTRICT 100",
+   "total_votes": 38788,
+   "candidates": [
+    {
+     "name": "JORDAN SCOTT HOFFNAGLE",
+     "first": "JORDAN SCOTT",
+     "last": "HOFFNAGLE",
+     "party": "REP",
+     "votes": 4817
+    },
+    {
+     "name": "VENTON JONES (I)",
+     "first": "VENTON",
+     "last": "JONES",
+     "party": "DEM",
+     "votes": 33971
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 101,
+   "race": "STATE REPRESENTATIVE DISTRICT 101",
+   "total_votes": 46763,
+   "candidates": [
+    {
+     "name": "JUNIOR EZEONU",
+     "first": "JUNIOR",
+     "last": "EZEONU",
+     "party": "DEM",
+     "votes": 46763
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 102,
+   "race": "STATE REPRESENTATIVE DISTRICT 102",
+   "total_votes": 45696,
+   "candidates": [
+    {
+     "name": "BONNIE ABADIE",
+     "first": "BONNIE",
+     "last": "ABADIE",
+     "party": "REP",
+     "votes": 14228
+    },
+    {
+     "name": "ANA-MARIA RODRIGUEZ RAMOS (I)",
+     "first": "ANA-MARIA",
+     "last": "RODRIGUEZ RAMOS",
+     "party": "DEM",
+     "votes": 31468
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 103,
+   "race": "STATE REPRESENTATIVE DISTRICT 103",
+   "total_votes": 48657,
+   "candidates": [
+    {
+     "name": "RAFAEL ANCHIA (I)",
+     "first": "RAFAEL",
+     "last": "ANCHIA",
+     "party": "DEM",
+     "votes": 37832
+    },
+    {
+     "name": "MELANIE MEDLEY-THOMAS",
+     "first": "MELANIE",
+     "last": "MEDLEY-THOMAS",
+     "party": "REP",
+     "votes": 10825
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 104,
+   "race": "STATE REPRESENTATIVE DISTRICT 104",
+   "total_votes": 35203,
+   "candidates": [
+    {
+     "name": "JESSICA GONZALEZ (I)",
+     "first": "JESSICA",
+     "last": "GONZALEZ",
+     "party": "DEM",
+     "votes": 35203
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 105,
+   "race": "STATE REPRESENTATIVE DISTRICT 105",
+   "total_votes": 30270,
+   "candidates": [
+    {
+     "name": "TERRY MEZA (I)",
+     "first": "TERRY",
+     "last": "MEZA",
+     "party": "DEM",
+     "votes": 30270
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 106,
+   "race": "STATE REPRESENTATIVE DISTRICT 106",
+   "total_votes": 91349,
+   "candidates": [
+    {
+     "name": "JOE MAYES",
+     "first": "JOE",
+     "last": "MAYES",
+     "party": "DEM",
+     "votes": 44267
+    },
+    {
+     "name": "JARED PATTERSON (I)",
+     "first": "JARED",
+     "last": "PATTERSON",
+     "party": "REP",
+     "votes": 47082
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 107,
+   "race": "STATE REPRESENTATIVE DISTRICT 107",
+   "total_votes": 31529,
+   "candidates": [
+    {
+     "name": "LINDA GARCIA (I)",
+     "first": "LINDA",
+     "last": "GARCIA",
+     "party": "DEM",
+     "votes": 31529
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 108,
+   "race": "STATE REPRESENTATIVE DISTRICT 108",
+   "total_votes": 92306,
+   "candidates": [
+    {
+     "name": "MORGAN MEYER (I)",
+     "first": "MORGAN",
+     "last": "MEYER",
+     "party": "REP",
+     "votes": 51775
+    },
+    {
+     "name": "ALLISON MITCHELL",
+     "first": "ALLISON",
+     "last": "MITCHELL",
+     "party": "DEM",
+     "votes": 40531
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 109,
+   "race": "STATE REPRESENTATIVE DISTRICT 109",
+   "total_votes": 64487,
+   "candidates": [
+    {
+     "name": "WILL CAMPBELL",
+     "first": "WILL",
+     "last": "CAMPBELL",
+     "party": "REP",
+     "votes": 10362
+    },
+    {
+     "name": "AICHA DAVIS (I)",
+     "first": "AICHA",
+     "last": "DAVIS",
+     "party": "DEM",
+     "votes": 54125
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 11,
+   "race": "STATE REPRESENTATIVE DISTRICT 11",
+   "total_votes": 62193,
+   "candidates": [
+    {
+     "name": "ROXANNE LATHAN",
+     "first": "ROXANNE",
+     "last": "LATHAN",
+     "party": "DEM",
+     "votes": 18181
+    },
+    {
+     "name": "JOANNE SHOFNER (I)",
+     "first": "JOANNE",
+     "last": "SHOFNER",
+     "party": "REP",
+     "votes": 44012
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 110,
+   "race": "STATE REPRESENTATIVE DISTRICT 110",
+   "total_votes": 32329,
+   "candidates": [
+    {
+     "name": "TONI ROSE (I)",
+     "first": "TONI",
+     "last": "ROSE",
+     "party": "DEM",
+     "votes": 32329
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 111,
+   "race": "STATE REPRESENTATIVE DISTRICT 111",
+   "total_votes": 51954,
+   "candidates": [
+    {
+     "name": "YVONNE DAVIS (I)",
+     "first": "YVONNE",
+     "last": "DAVIS",
+     "party": "DEM",
+     "votes": 51954
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 112,
+   "race": "STATE REPRESENTATIVE DISTRICT 112",
+   "total_votes": 80750,
+   "candidates": [
+    {
+     "name": "ANGIE CHEN BUTTON (I)",
+     "first": "ANGIE CHEN",
+     "last": "BUTTON",
+     "party": "REP",
+     "votes": 37499
+    },
+    {
+     "name": "ZACH HERBERT",
+     "first": "ZACH",
+     "last": "HERBERT",
+     "party": "DEM",
+     "votes": 43251
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 113,
+   "race": "STATE REPRESENTATIVE DISTRICT 113",
+   "total_votes": 55865,
+   "candidates": [
+    {
+     "name": "RHETTA ANDREWS BOWERS (I)",
+     "first": "RHETTA ANDREWS",
+     "last": "BOWERS",
+     "party": "DEM",
+     "votes": 37611
+    },
+    {
+     "name": "STEPHEN W. STANLEY",
+     "first": "STEPHEN W.",
+     "last": "STANLEY",
+     "party": "REP",
+     "votes": 18254
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 114,
+   "race": "STATE REPRESENTATIVE DISTRICT 114",
+   "total_votes": 62503,
+   "candidates": [
+    {
+     "name": "JOHN BRYANT (I)",
+     "first": "JOHN",
+     "last": "BRYANT",
+     "party": "DEM",
+     "votes": 43891
+    },
+    {
+     "name": "TIM MCDONOUGH",
+     "first": "TIM",
+     "last": "MCDONOUGH",
+     "party": "REP",
+     "votes": 18612
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 115,
+   "race": "STATE REPRESENTATIVE DISTRICT 115",
+   "total_votes": 62479,
+   "candidates": [
+    {
+     "name": "CASSANDRA HERNANDEZ (I)",
+     "first": "CASSANDRA",
+     "last": "HERNANDEZ",
+     "party": "DEM",
+     "votes": 40300
+    },
+    {
+     "name": "DANNY ROSELLINI",
+     "first": "DANNY",
+     "last": "ROSELLINI",
+     "party": "REP",
+     "votes": 22179
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 116,
+   "race": "STATE REPRESENTATIVE DISTRICT 116",
+   "total_votes": 51754,
+   "candidates": [
+    {
+     "name": "TREY MARTINEZ FISCHER (I)",
+     "first": "TREY",
+     "last": "MARTINEZ FISCHER",
+     "party": "DEM",
+     "votes": 39225
+    },
+    {
+     "name": "RHETT ROSENQUEST SMITH",
+     "first": "RHETT ROSENQUEST",
+     "last": "SMITH",
+     "party": "REP",
+     "votes": 12529
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 117,
+   "race": "STATE REPRESENTATIVE DISTRICT 117",
+   "total_votes": 64198,
+   "candidates": [
+    {
+     "name": "PHILIP CORTEZ (I)",
+     "first": "PHILIP",
+     "last": "CORTEZ",
+     "party": "DEM",
+     "votes": 44506
+    },
+    {
+     "name": "BEN MOSTYN",
+     "first": "BEN",
+     "last": "MOSTYN",
+     "party": "REP",
+     "votes": 19692
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 118,
+   "race": "STATE REPRESENTATIVE DISTRICT 118",
+   "total_votes": 69048,
+   "candidates": [
+    {
+     "name": "JORGE BORREGO",
+     "first": "JORGE",
+     "last": "BORREGO",
+     "party": "REP",
+     "votes": 26451
+    },
+    {
+     "name": "KRISTIAN CARRANZA",
+     "first": "KRISTIAN",
+     "last": "CARRANZA",
+     "party": "DEM",
+     "votes": 42597
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 119,
+   "race": "STATE REPRESENTATIVE DISTRICT 119",
+   "total_votes": 54142,
+   "candidates": [
+    {
+     "name": "ELIZABETH \"LIZ\" CAMPOS (I)",
+     "first": "ELIZABETH \"LIZ\"",
+     "last": "CAMPOS",
+     "party": "DEM",
+     "votes": 39039
+    },
+    {
+     "name": "MELVA PEREZ",
+     "first": "MELVA",
+     "last": "PEREZ",
+     "party": "REP",
+     "votes": 15103
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 12,
+   "race": "STATE REPRESENTATIVE DISTRICT 12",
+   "total_votes": 72690,
+   "candidates": [
+    {
+     "name": "ANDIE HO",
+     "first": "ANDIE",
+     "last": "HO",
+     "party": "DEM",
+     "votes": 21621
+    },
+    {
+     "name": "TREY WHARTON (I)",
+     "first": "TREY",
+     "last": "WHARTON",
+     "party": "REP",
+     "votes": 51069
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 120,
+   "race": "STATE REPRESENTATIVE DISTRICT 120",
+   "total_votes": 37296,
+   "candidates": [
+    {
+     "name": "BARBARA GERVIN HAWKINS (I)",
+     "first": "BARBARA",
+     "last": "GERVIN HAWKINS",
+     "party": "DEM",
+     "votes": 37296
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 121,
+   "race": "STATE REPRESENTATIVE DISTRICT 121",
+   "total_votes": 85066,
+   "candidates": [
+    {
+     "name": "ZACK DUNN",
+     "first": "ZACK",
+     "last": "DUNN",
+     "party": "DEM",
+     "votes": 45990
+    },
+    {
+     "name": "MARC LAHOOD (I)",
+     "first": "MARC",
+     "last": "LAHOOD",
+     "party": "REP",
+     "votes": 39076
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 122,
+   "race": "STATE REPRESENTATIVE DISTRICT 122",
+   "total_votes": 98534,
+   "candidates": [
+    {
+     "name": "MARK DORAZIO (I)",
+     "first": "MARK",
+     "last": "DORAZIO",
+     "party": "REP",
+     "votes": 50153
+    },
+    {
+     "name": "SHELLY NICKELS",
+     "first": "SHELLY",
+     "last": "NICKELS",
+     "party": "DEM",
+     "votes": 48381
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 123,
+   "race": "STATE REPRESENTATIVE DISTRICT 123",
+   "total_votes": 44129,
+   "candidates": [
+    {
+     "name": "DIEGO BERNAL (I)",
+     "first": "DIEGO",
+     "last": "BERNAL",
+     "party": "DEM",
+     "votes": 44129
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 124,
+   "race": "STATE REPRESENTATIVE DISTRICT 124",
+   "total_votes": 43949,
+   "candidates": [
+    {
+     "name": "JOSEY GARCIA (I)",
+     "first": "JOSEY",
+     "last": "GARCIA",
+     "party": "DEM",
+     "votes": 32168
+    },
+    {
+     "name": "L.D. HOWARD",
+     "first": "L.D.",
+     "last": "HOWARD",
+     "party": "W",
+     "votes": 0
+    },
+    {
+     "name": "SYLVIA SOTO",
+     "first": "SYLVIA",
+     "last": "SOTO",
+     "party": "REP",
+     "votes": 11781
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 125,
+   "race": "STATE REPRESENTATIVE DISTRICT 125",
+   "total_votes": 66702,
+   "candidates": [
+    {
+     "name": "RICARDO 'RICK' MARTINEZ",
+     "first": "RICARDO 'RICK'",
+     "last": "MARTINEZ",
+     "party": "REP",
+     "votes": 21656
+    },
+    {
+     "name": "ADRIAN REYNA",
+     "first": "ADRIAN",
+     "last": "REYNA",
+     "party": "DEM",
+     "votes": 45046
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 126,
+   "race": "STATE REPRESENTATIVE DISTRICT 126",
+   "total_votes": 67687,
+   "candidates": [
+    {
+     "name": "STEFANIE BORD",
+     "first": "STEFANIE",
+     "last": "BORD",
+     "party": "DEM",
+     "votes": 33976
+    },
+    {
+     "name": "STAN STANART",
+     "first": "STAN",
+     "last": "STANART",
+     "party": "REP",
+     "votes": 33711
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 127,
+   "race": "STATE REPRESENTATIVE DISTRICT 127",
+   "total_votes": 79474,
+   "candidates": [
+    {
+     "name": "CHARLES CUNNINGHAM (I)",
+     "first": "CHARLES",
+     "last": "CUNNINGHAM",
+     "party": "REP",
+     "votes": 38810
+    },
+    {
+     "name": "MICHELLE WILLIAMS",
+     "first": "MICHELLE",
+     "last": "WILLIAMS",
+     "party": "DEM",
+     "votes": 40664
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 128,
+   "race": "STATE REPRESENTATIVE DISTRICT 128",
+   "total_votes": 54634,
+   "candidates": [
+    {
+     "name": "TOM BUTLER",
+     "first": "TOM",
+     "last": "BUTLER",
+     "party": "REP",
+     "votes": 31245
+    },
+    {
+     "name": "DESIREE KLAUS",
+     "first": "DESIREE",
+     "last": "KLAUS",
+     "party": "DEM",
+     "votes": 23389
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 129,
+   "race": "STATE REPRESENTATIVE DISTRICT 129",
+   "total_votes": 74150,
+   "candidates": [
+    {
+     "name": "SCOTT BOWEN",
+     "first": "SCOTT",
+     "last": "BOWEN",
+     "party": "REP",
+     "votes": 37491
+    },
+    {
+     "name": "ALBERT WITTLIFF",
+     "first": "ALBERT",
+     "last": "WITTLIFF",
+     "party": "DEM",
+     "votes": 36659
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 13,
+   "race": "STATE REPRESENTATIVE DISTRICT 13",
+   "total_votes": 59441,
+   "candidates": [
+    {
+     "name": "ALBERT HUNTER",
+     "first": "ALBERT",
+     "last": "HUNTER",
+     "party": "DEM",
+     "votes": 18747
+    },
+    {
+     "name": "ANGELIA ORR (I)",
+     "first": "ANGELIA",
+     "last": "ORR",
+     "party": "REP",
+     "votes": 40694
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 130,
+   "race": "STATE REPRESENTATIVE DISTRICT 130",
+   "total_votes": 79720,
+   "candidates": [
+    {
+     "name": "TOM OLIVERSON",
+     "first": "TOM",
+     "last": "OLIVERSON",
+     "party": "REP",
+     "votes": 46688
+    },
+    {
+     "name": "BRETT ROBINSON",
+     "first": "BRETT",
+     "last": "ROBINSON",
+     "party": "DEM",
+     "votes": 33032
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 131,
+   "race": "STATE REPRESENTATIVE DISTRICT 131",
+   "total_votes": 42438,
+   "candidates": [
+    {
+     "name": "STACI CHILDS",
+     "first": "STACI",
+     "last": "CHILDS",
+     "party": "DEM",
+     "votes": 36238
+    },
+    {
+     "name": "SCOTT WHITMARSH",
+     "first": "SCOTT",
+     "last": "WHITMARSH",
+     "party": "REP",
+     "votes": 6200
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 132,
+   "race": "STATE REPRESENTATIVE DISTRICT 132",
+   "total_votes": 84563,
+   "candidates": [
+    {
+     "name": "SARA MCGEE",
+     "first": "SARA",
+     "last": "MCGEE",
+     "party": "DEM",
+     "votes": 45498
+    },
+    {
+     "name": "MIKE SCHOFIELD (I)",
+     "first": "MIKE",
+     "last": "SCHOFIELD",
+     "party": "REP",
+     "votes": 39065
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 133,
+   "race": "STATE REPRESENTATIVE DISTRICT 133",
+   "total_votes": 66937,
+   "candidates": [
+    {
+     "name": "MANO DEAYALA (I)",
+     "first": "MANO",
+     "last": "DEAYALA",
+     "party": "REP",
+     "votes": 35546
+    },
+    {
+     "name": "JOSH WALLENSTEIN",
+     "first": "JOSH",
+     "last": "WALLENSTEIN",
+     "party": "DEM",
+     "votes": 31391
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 134,
+   "race": "STATE REPRESENTATIVE DISTRICT 134",
+   "total_votes": 89522,
+   "candidates": [
+    {
+     "name": "ANN JOHNSON (I)",
+     "first": "ANN",
+     "last": "JOHNSON",
+     "party": "DEM",
+     "votes": 59810
+    },
+    {
+     "name": "MIKE MICHNA",
+     "first": "MIKE",
+     "last": "MICHNA",
+     "party": "REP",
+     "votes": 29712
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 135,
+   "race": "STATE REPRESENTATIVE DISTRICT 135",
+   "total_votes": 55994,
+   "candidates": [
+    {
+     "name": "ODUS E. EVBAGHARU",
+     "first": "ODUS E.",
+     "last": "EVBAGHARU",
+     "party": "DEM",
+     "votes": 37727
+    },
+    {
+     "name": "LIZ RAMOS",
+     "first": "LIZ",
+     "last": "RAMOS",
+     "party": "REP",
+     "votes": 18267
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 136,
+   "race": "STATE REPRESENTATIVE DISTRICT 136",
+   "total_votes": 67323,
+   "candidates": [
+    {
+     "name": "JOHN H. BUCY, III (I)",
+     "first": "JOHN H.",
+     "last": "BUCY, III",
+     "party": "DEM",
+     "votes": 47180
+    },
+    {
+     "name": "THEODORE SCHRAMM",
+     "first": "THEODORE",
+     "last": "SCHRAMM",
+     "party": "REP",
+     "votes": 20143
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 137,
+   "race": "STATE REPRESENTATIVE DISTRICT 137",
+   "total_votes": 25907,
+   "candidates": [
+    {
+     "name": "GENE WU (I)",
+     "first": "GENE",
+     "last": "WU",
+     "party": "DEM",
+     "votes": 18225
+    },
+    {
+     "name": "HELEN ZHOU",
+     "first": "HELEN",
+     "last": "ZHOU",
+     "party": "REP",
+     "votes": 7682
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 138,
+   "race": "STATE REPRESENTATIVE DISTRICT 138",
+   "total_votes": 65955,
+   "candidates": [
+    {
+     "name": "LACEY HULL (I)",
+     "first": "LACEY",
+     "last": "HULL",
+     "party": "REP",
+     "votes": 31713
+    },
+    {
+     "name": "TYLER SMITH",
+     "first": "TYLER",
+     "last": "SMITH",
+     "party": "DEM",
+     "votes": 34242
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 139,
+   "race": "STATE REPRESENTATIVE DISTRICT 139",
+   "total_votes": 55986,
+   "candidates": [
+    {
+     "name": "KYLE HARDING",
+     "first": "KYLE",
+     "last": "HARDING",
+     "party": "REP",
+     "votes": 12168
+    },
+    {
+     "name": "CHARLENE WARD JOHNSON (I)",
+     "first": "CHARLENE WARD",
+     "last": "JOHNSON",
+     "party": "DEM",
+     "votes": 43818
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 14,
+   "race": "STATE REPRESENTATIVE DISTRICT 14",
+   "total_votes": 62813,
+   "candidates": [
+    {
+     "name": "JANET TYCELIA DUDDING",
+     "first": "JANET TYCELIA",
+     "last": "DUDDING",
+     "party": "DEM",
+     "votes": 30780
+    },
+    {
+     "name": "PAUL DYSON (I)",
+     "first": "PAUL",
+     "last": "DYSON",
+     "party": "REP",
+     "votes": 30465
+    },
+    {
+     "name": "JEFF MILLER",
+     "first": "JEFF",
+     "last": "MILLER",
+     "party": "L",
+     "votes": 1568
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 140,
+   "race": "STATE REPRESENTATIVE DISTRICT 140",
+   "total_votes": 29841,
+   "candidates": [
+    {
+     "name": "LAURA GARCIA DELEON",
+     "first": "LAURA GARCIA",
+     "last": "DELEON",
+     "party": "REP",
+     "votes": 5602
+    },
+    {
+     "name": "ARMANDO LUCIO WALLE (I)",
+     "first": "ARMANDO LUCIO",
+     "last": "WALLE",
+     "party": "DEM",
+     "votes": 24239
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 141,
+   "race": "STATE REPRESENTATIVE DISTRICT 141",
+   "total_votes": 36179,
+   "candidates": [
+    {
+     "name": "JULIE HUNT",
+     "first": "JULIE",
+     "last": "HUNT",
+     "party": "REP",
+     "votes": 4722
+    },
+    {
+     "name": "SENFRONIA THOMPSON (I)",
+     "first": "SENFRONIA",
+     "last": "THOMPSON",
+     "party": "DEM",
+     "votes": 31457
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 142,
+   "race": "STATE REPRESENTATIVE DISTRICT 142",
+   "total_votes": 49089,
+   "candidates": [
+    {
+     "name": "HAROLD V. DUTTON, JR (I)",
+     "first": "HAROLD V.",
+     "last": "DUTTON, JR",
+     "party": "DEM",
+     "votes": 39716
+    },
+    {
+     "name": "HEIDI HALL",
+     "first": "HEIDI",
+     "last": "HALL",
+     "party": "REP",
+     "votes": 9373
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 143,
+   "race": "STATE REPRESENTATIVE DISTRICT 143",
+   "total_votes": 34844,
+   "candidates": [
+    {
+     "name": "ANA HERNANDEZ (I)",
+     "first": "ANA",
+     "last": "HERNANDEZ",
+     "party": "DEM",
+     "votes": 27101
+    },
+    {
+     "name": "FRANK SALAZAR",
+     "first": "FRANK",
+     "last": "SALAZAR",
+     "party": "REP",
+     "votes": 7743
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 144,
+   "race": "STATE REPRESENTATIVE DISTRICT 144",
+   "total_votes": 37291,
+   "candidates": [
+    {
+     "name": "DAVID FLORES",
+     "first": "DAVID",
+     "last": "FLORES",
+     "party": "REP",
+     "votes": 11077
+    },
+    {
+     "name": "MARY ANN PEREZ (I)",
+     "first": "MARY ANN",
+     "last": "PEREZ",
+     "party": "DEM",
+     "votes": 26214
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 145,
+   "race": "STATE REPRESENTATIVE DISTRICT 145",
+   "total_votes": 55877,
+   "candidates": [
+    {
+     "name": "CHRISTINA MORALES (I)",
+     "first": "CHRISTINA",
+     "last": "MORALES",
+     "party": "DEM",
+     "votes": 43345
+    },
+    {
+     "name": "INOCENSIA MORENO",
+     "first": "INOCENSIA",
+     "last": "MORENO",
+     "party": "REP",
+     "votes": 12532
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 146,
+   "race": "STATE REPRESENTATIVE DISTRICT 146",
+   "total_votes": 51496,
+   "candidates": [
+    {
+     "name": "ALEXANDRIA NICOLE BUTLER",
+     "first": "ALEXANDRIA NICOLE",
+     "last": "BUTLER",
+     "party": "REP",
+     "votes": 8714
+    },
+    {
+     "name": "LAUREN ASHLEY SIMMONS (I)",
+     "first": "LAUREN ASHLEY",
+     "last": "SIMMONS",
+     "party": "DEM",
+     "votes": 42782
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 147,
+   "race": "STATE REPRESENTATIVE DISTRICT 147",
+   "total_votes": 60033,
+   "candidates": [
+    {
+     "name": "THEODIS DANIEL",
+     "first": "THEODIS",
+     "last": "DANIEL",
+     "party": "REP",
+     "votes": 9432
+    },
+    {
+     "name": "JOLANDA JONES (I)",
+     "first": "JOLANDA",
+     "last": "JONES",
+     "party": "DEM",
+     "votes": 50601
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 148,
+   "race": "STATE REPRESENTATIVE DISTRICT 148",
+   "total_votes": 47562,
+   "candidates": [
+    {
+     "name": "AMANDA LABRIE",
+     "first": "AMANDA",
+     "last": "LABRIE",
+     "party": "REP",
+     "votes": 15360
+    },
+    {
+     "name": "PENNY MORALES SHAW (I)",
+     "first": "PENNY",
+     "last": "MORALES SHAW",
+     "party": "DEM",
+     "votes": 32202
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 149,
+   "race": "STATE REPRESENTATIVE DISTRICT 149",
+   "total_votes": 42031,
+   "candidates": [
+    {
+     "name": "DAVE BENNETT",
+     "first": "DAVE",
+     "last": "BENNETT",
+     "party": "REP",
+     "votes": 13232
+    },
+    {
+     "name": "DARLENE BREAUX",
+     "first": "DARLENE",
+     "last": "BREAUX",
+     "party": "DEM",
+     "votes": 28799
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 15,
+   "race": "STATE REPRESENTATIVE DISTRICT 15",
+   "total_votes": 79979,
+   "candidates": [
+    {
+     "name": "BRAD BAILEY",
+     "first": "BRAD",
+     "last": "BAILEY",
+     "party": "REP",
+     "votes": 45484
+    },
+    {
+     "name": "JESSI COWART",
+     "first": "JESSI",
+     "last": "COWART",
+     "party": "L",
+     "votes": 2516
+    },
+    {
+     "name": "MONIQUA' S. SCOTT",
+     "first": "MONIQUA' S.",
+     "last": "SCOTT",
+     "party": "DEM",
+     "votes": 31979
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 150,
+   "race": "STATE REPRESENTATIVE DISTRICT 150",
+   "total_votes": 68701,
+   "candidates": [
+    {
+     "name": "A'YONNA KELLUM",
+     "first": "A'YONNA",
+     "last": "KELLUM",
+     "party": "DEM",
+     "votes": 34766
+    },
+    {
+     "name": "VALOREE SWANSON (I)",
+     "first": "VALOREE",
+     "last": "SWANSON",
+     "party": "REP",
+     "votes": 33935
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 16,
+   "race": "STATE REPRESENTATIVE DISTRICT 16",
+   "total_votes": 78132,
+   "candidates": [
+    {
+     "name": "BOBBIE CLAYTON",
+     "first": "BOBBIE",
+     "last": "CLAYTON",
+     "party": "DEM",
+     "votes": 22392
+    },
+    {
+     "name": "WILL METCALF (I)",
+     "first": "WILL",
+     "last": "METCALF",
+     "party": "REP",
+     "votes": 55740
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 17,
+   "race": "STATE REPRESENTATIVE DISTRICT 17",
+   "total_votes": 73530,
+   "candidates": [
+    {
+     "name": "STAN GERDES (I)",
+     "first": "STAN",
+     "last": "GERDES",
+     "party": "REP",
+     "votes": 41098
+    },
+    {
+     "name": "MARY ELIZABETH KLENZ",
+     "first": "MARY ELIZABETH",
+     "last": "KLENZ",
+     "party": "DEM",
+     "votes": 32432
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 18,
+   "race": "STATE REPRESENTATIVE DISTRICT 18",
+   "total_votes": 67002,
+   "candidates": [
+    {
+     "name": "VALORIE BARTON",
+     "first": "VALORIE",
+     "last": "BARTON",
+     "party": "DEM",
+     "votes": 18635
+    },
+    {
+     "name": "JANIS HOLT (I)",
+     "first": "JANIS",
+     "last": "HOLT",
+     "party": "REP",
+     "votes": 48367
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 19,
+   "race": "STATE REPRESENTATIVE DISTRICT 19",
+   "total_votes": 111037,
+   "candidates": [
+    {
+     "name": "TOM LUCK",
+     "first": "TOM",
+     "last": "LUCK",
+     "party": "DEM",
+     "votes": 35426
+    },
+    {
+     "name": "ELLEN TROXCLAIR (I)",
+     "first": "ELLEN",
+     "last": "TROXCLAIR",
+     "party": "REP",
+     "votes": 75611
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 2,
+   "race": "STATE REPRESENTATIVE DISTRICT 2",
+   "total_votes": 71789,
+   "candidates": [
+    {
+     "name": "FATIMA LA'JUAN MUSE",
+     "first": "FATIMA",
+     "last": "LA'JUAN MUSE",
+     "party": "DEM",
+     "votes": 17528
+    },
+    {
+     "name": "BRENT A. MONEY (I)",
+     "first": "BRENT A.",
+     "last": "MONEY",
+     "party": "REP",
+     "votes": 54261
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 20,
+   "race": "STATE REPRESENTATIVE DISTRICT 20",
+   "total_votes": 99252,
+   "candidates": [
+    {
+     "name": "MATTHIAS-JONAH EARLY",
+     "first": "MATTHIAS-JONAH",
+     "last": "EARLY",
+     "party": "DEM",
+     "votes": 47451
+    },
+    {
+     "name": "TERRY M. WILSON (I)",
+     "first": "TERRY M.",
+     "last": "WILSON",
+     "party": "REP",
+     "votes": 51801
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 21,
+   "race": "STATE REPRESENTATIVE DISTRICT 21",
+   "total_votes": 63428,
+   "candidates": [
+    {
+     "name": "RAY CALLAS",
+     "first": "RAY",
+     "last": "CALLAS",
+     "party": "REP",
+     "votes": 45987
+    },
+    {
+     "name": "JACQUELINE \"JACKY\" HERNANDEZ",
+     "first": "JACQUELINE \"JACKY\"",
+     "last": "HERNANDEZ",
+     "party": "DEM",
+     "votes": 17441
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 22,
+   "race": "STATE REPRESENTATIVE DISTRICT 22",
+   "total_votes": 32238,
+   "candidates": [
+    {
+     "name": "CHRISTIAN MANUEL (I)",
+     "first": "CHRISTIAN",
+     "last": "MANUEL",
+     "party": "DEM",
+     "votes": 32238
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 23,
+   "race": "STATE REPRESENTATIVE DISTRICT 23",
+   "total_votes": 67797,
+   "candidates": [
+    {
+     "name": "CHERYL LYNN CLARK",
+     "first": "CHERYL LYNN",
+     "last": "CLARK",
+     "party": "DEM",
+     "votes": 29801
+    },
+    {
+     "name": "TERRI LEO WILSON (I)",
+     "first": "TERRI LEO",
+     "last": "WILSON",
+     "party": "REP",
+     "votes": 37996
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 24,
+   "race": "STATE REPRESENTATIVE DISTRICT 24",
+   "total_votes": 83500,
+   "candidates": [
+    {
+     "name": "GREG BONNEN (I)",
+     "first": "GREG",
+     "last": "BONNEN",
+     "party": "REP",
+     "votes": 51402
+    },
+    {
+     "name": "FRANK N CARR",
+     "first": "FRANK N",
+     "last": "CARR",
+     "party": "DEM",
+     "votes": 32098
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 25,
+   "race": "STATE REPRESENTATIVE DISTRICT 25",
+   "total_votes": 68180,
+   "candidates": [
+    {
+     "name": "MIKE MEADORS",
+     "first": "MIKE",
+     "last": "MEADORS",
+     "party": "DEM",
+     "votes": 33517
+    },
+    {
+     "name": "CODY THANE VASUT (I)",
+     "first": "CODY THANE",
+     "last": "VASUT",
+     "party": "REP",
+     "votes": 34663
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 26,
+   "race": "STATE REPRESENTATIVE DISTRICT 26",
+   "total_votes": 73300,
+   "candidates": [
+    {
+     "name": "ELIZABETH \"ELIZ\" MARKOWITZ",
+     "first": "ELIZABETH \"ELIZ\"",
+     "last": "MARKOWITZ",
+     "party": "DEM",
+     "votes": 36583
+    },
+    {
+     "name": "MATT MORGAN (I)",
+     "first": "MATT",
+     "last": "MORGAN",
+     "party": "REP",
+     "votes": 36717
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 27,
+   "race": "STATE REPRESENTATIVE DISTRICT 27",
+   "total_votes": 79279,
+   "candidates": [
+    {
+     "name": "MAX ALALIBO",
+     "first": "MAX",
+     "last": "ALALIBO",
+     "party": "REP",
+     "votes": 18851
+    },
+    {
+     "name": "RON REYNOLDS (I)",
+     "first": "RON",
+     "last": "REYNOLDS ",
+     "party": "DEM",
+     "votes": 60428
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 28,
+   "race": "STATE REPRESENTATIVE DISTRICT 28",
+   "total_votes": 89189,
+   "candidates": [
+    {
+     "name": "GARY GATES (I)",
+     "first": "GARY",
+     "last": "GATES",
+     "party": "REP",
+     "votes": 43811
+    },
+    {
+     "name": "SANDY IBANEZ",
+     "first": "SANDY",
+     "last": "IBANEZ",
+     "party": "DEM",
+     "votes": 45378
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 29,
+   "race": "STATE REPRESENTATIVE DISTRICT 29",
+   "total_votes": 71626,
+   "candidates": [
+    {
+     "name": "JEFF BARRY (I)",
+     "first": "JEFF",
+     "last": "BARRY",
+     "party": "REP",
+     "votes": 36431
+    },
+    {
+     "name": "KAREN REEDER",
+     "first": "KAREN",
+     "last": "REEDER",
+     "party": "DEM",
+     "votes": 35195
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 3,
+   "race": "STATE REPRESENTATIVE DISTRICT 3",
+   "total_votes": 84878,
+   "candidates": [
+    {
+     "name": "NICOLE KING",
+     "first": "NICOLE",
+     "last": "KING",
+     "party": "DEM",
+     "votes": 27918
+    },
+    {
+     "name": "KRISTEN PLAISANCE",
+     "first": "KRISTEN",
+     "last": "PLAISANCE",
+     "party": "REP",
+     "votes": 56960
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 30,
+   "race": "STATE REPRESENTATIVE DISTRICT 30",
+   "total_votes": 61342,
+   "candidates": [
+    {
+     "name": "AJ LOUDERBACK (I)",
+     "first": "AJ",
+     "last": "LOUDERBACK",
+     "party": "REP",
+     "votes": 43962
+    },
+    {
+     "name": "CRYSTAL SEDILLO",
+     "first": "CRYSTAL",
+     "last": "SEDILLO",
+     "party": "DEM",
+     "votes": 17380
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 31,
+   "race": "STATE REPRESENTATIVE DISTRICT 31",
+   "total_votes": 54391,
+   "candidates": [
+    {
+     "name": "JENNIFER \"JJ\" DOMINGUEZ",
+     "first": "JENNIFER \"JJ\"",
+     "last": "DOMINGUEZ",
+     "party": "DEM",
+     "votes": 20651
+    },
+    {
+     "name": "RYAN GUILLEN (I)",
+     "first": "RYAN",
+     "last": "GUILLEN",
+     "party": "REP",
+     "votes": 33740
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 32,
+   "race": "STATE REPRESENTATIVE DISTRICT 32",
+   "total_votes": 65585,
+   "candidates": [
+    {
+     "name": "TODD HUNTER (I)",
+     "first": "TODD",
+     "last": "HUNTER",
+     "party": "REP",
+     "votes": 39469
+    },
+    {
+     "name": "GABRIEL \"GABE\" LOZANO MARROQUIN",
+     "first": "GABRIEL \"GABE\"",
+     "last": "LOZANO MARROQUIN",
+     "party": "DEM",
+     "votes": 26116
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 33,
+   "race": "STATE REPRESENTATIVE DISTRICT 33",
+   "total_votes": 83974,
+   "candidates": [
+    {
+     "name": "ORLANDO LOPEZ",
+     "first": "ORLANDO",
+     "last": "LOPEZ",
+     "party": "DEM",
+     "votes": 37467
+    },
+    {
+     "name": "KATRINA PIERSON (I)",
+     "first": "KATRINA",
+     "last": "PIERSON",
+     "party": "REP",
+     "votes": 46507
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 34,
+   "race": "STATE REPRESENTATIVE DISTRICT 34",
+   "total_votes": 42765,
+   "candidates": [
+    {
+     "name": "STEPHANIE GUERRERO SAENZ",
+     "first": "STEPHANIE",
+     "last": "GUERRERO SAENZ",
+     "party": "DEM",
+     "votes": 23765
+    },
+    {
+     "name": "DENISE VILLALOBOS (I)",
+     "first": "DENISE",
+     "last": "VILLALOBOS",
+     "party": "REP",
+     "votes": 19000
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 35,
+   "race": "STATE REPRESENTATIVE DISTRICT 35",
+   "total_votes": 34905,
+   "candidates": [
+    {
+     "name": "OSCAR LONGORIA (I)",
+     "first": "OSCAR",
+     "last": "LONGORIA",
+     "party": "DEM",
+     "votes": 26180
+    },
+    {
+     "name": "OSCAR ROSA",
+     "first": "OSCAR",
+     "last": "ROSA",
+     "party": "REP",
+     "votes": 8725
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 36,
+   "race": "STATE REPRESENTATIVE DISTRICT 36",
+   "total_votes": 33235,
+   "candidates": [
+    {
+     "name": "SERGIO MU\u00d1OZ, JR (I)",
+     "first": "SERGIO",
+     "last": "MU\u00d1OZ, JR",
+     "party": "DEM",
+     "votes": 33235
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 37,
+   "race": "STATE REPRESENTATIVE DISTRICT 37",
+   "total_votes": 48717,
+   "candidates": [
+    {
+     "name": "JANIE LOPEZ",
+     "first": "JANIE",
+     "last": "LOPEZ",
+     "party": "REP",
+     "votes": 20470
+    },
+    {
+     "name": "OZIEL \"OZZIE\" OCHOA, JR",
+     "first": "OZIEL \"OZZIE\"",
+     "last": "OCHOA, JR",
+     "party": "DEM",
+     "votes": 28247
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 38,
+   "race": "STATE REPRESENTATIVE DISTRICT 38",
+   "total_votes": 40597,
+   "candidates": [
+    {
+     "name": "LAURA E. CISNEROS",
+     "first": "LAURA E.",
+     "last": "CISNEROS",
+     "party": "REP",
+     "votes": 10121
+    },
+    {
+     "name": "ERIN ELIZABETH GAMEZ (I)",
+     "first": "ERIN ELIZABETH",
+     "last": "GAMEZ",
+     "party": "DEM",
+     "votes": 30476
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 39,
+   "race": "STATE REPRESENTATIVE DISTRICT 39",
+   "total_votes": 36211,
+   "candidates": [
+    {
+     "name": "ARMANDO MANDO MARTINEZ (I)",
+     "first": "ARMANDO MANDO",
+     "last": "MARTINEZ",
+     "party": "DEM",
+     "votes": 36211
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 4,
+   "race": "STATE REPRESENTATIVE DISTRICT 4",
+   "total_votes": 77309,
+   "candidates": [
+    {
+     "name": "KEITH BELL (I)",
+     "first": "KEITH",
+     "last": "BELL",
+     "party": "REP",
+     "votes": 44465
+    },
+    {
+     "name": "MARK A.  MOSELEY",
+     "first": "MARK A. ",
+     "last": "MOSELEY",
+     "party": "DEM",
+     "votes": 32844
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 40,
+   "race": "STATE REPRESENTATIVE DISTRICT 40",
+   "total_votes": 43067,
+   "candidates": [
+    {
+     "name": "CELESTE CABRERA-HUFF",
+     "first": "CELESTE",
+     "last": "CABRERA-HUFF",
+     "party": "REP",
+     "votes": 10929
+    },
+    {
+     "name": "TERRY CANALES (I)",
+     "first": "TERRY",
+     "last": "CANALES",
+     "party": "DEM",
+     "votes": 32138
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 41,
+   "race": "STATE REPRESENTATIVE DISTRICT 41",
+   "total_votes": 52970,
+   "candidates": [
+    {
+     "name": "GARY GROVES",
+     "first": "GARY",
+     "last": "GROVES",
+     "party": "REP",
+     "votes": 16942
+    },
+    {
+     "name": "JULIO SALINAS",
+     "first": "JULIO",
+     "last": "SALINAS",
+     "party": "DEM",
+     "votes": 36028
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 42,
+   "race": "STATE REPRESENTATIVE DISTRICT 42",
+   "total_votes": 42987,
+   "candidates": [
+    {
+     "name": "TERESA JOHNSON-HERNANDEZ",
+     "first": "TERESA",
+     "last": "JOHNSON-HERNANDEZ",
+     "party": "REP",
+     "votes": 12351
+    },
+    {
+     "name": "RICHARD PENA RAYMOND (I)",
+     "first": "RICHARD PENA",
+     "last": "RAYMOND",
+     "party": "DEM",
+     "votes": 30636
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 43,
+   "race": "STATE REPRESENTATIVE DISTRICT 43",
+   "total_votes": 53539,
+   "candidates": [
+    {
+     "name": "JEFFREY T JACKSON",
+     "first": "JEFFREY T",
+     "last": "JACKSON",
+     "party": "DEM",
+     "votes": 21977
+    },
+    {
+     "name": "J.M. LOZANO (I)",
+     "first": "J.M.",
+     "last": "LOZANO",
+     "party": "REP",
+     "votes": 31562
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 44,
+   "race": "STATE REPRESENTATIVE DISTRICT 44",
+   "total_votes": 75247,
+   "candidates": [
+    {
+     "name": "ERIC NORMAN",
+     "first": "ERIC",
+     "last": "NORMAN",
+     "party": "DEM",
+     "votes": 32557
+    },
+    {
+     "name": "ALAN SCHOOLCRAFT (I)",
+     "first": "ALAN",
+     "last": "SCHOOLCRAFT",
+     "party": "REP",
+     "votes": 42690
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 45,
+   "race": "STATE REPRESENTATIVE DISTRICT 45",
+   "total_votes": 91631,
+   "candidates": [
+    {
+     "name": "TENNYSON G. MORENO",
+     "first": "TENNYSON G.",
+     "last": "MORENO",
+     "party": "REP",
+     "votes": 29370
+    },
+    {
+     "name": "ERIN ZWIENER (I)",
+     "first": "ERIN",
+     "last": "ZWIENER",
+     "party": "DEM",
+     "votes": 62261
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 46,
+   "race": "STATE REPRESENTATIVE DISTRICT 46",
+   "total_votes": 69136,
+   "candidates": [
+    {
+     "name": "SHERYL COLE (I)",
+     "first": "SHERYL",
+     "last": "COLE",
+     "party": "DEM",
+     "votes": 69136
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 47,
+   "race": "STATE REPRESENTATIVE DISTRICT 47",
+   "total_votes": 90834,
+   "candidates": [
+    {
+     "name": "JENNIFER MUSHTALER",
+     "first": "JENNIFER",
+     "last": "MUSHTALER",
+     "party": "REP",
+     "votes": 33291
+    },
+    {
+     "name": "POOJA SETHI",
+     "first": "POOJA",
+     "last": "SETHI",
+     "party": "DEM",
+     "votes": 57543
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 48,
+   "race": "STATE REPRESENTATIVE DISTRICT 48",
+   "total_votes": 95255,
+   "candidates": [
+    {
+     "name": "ANTHONY GUPTA",
+     "first": "ANTHONY",
+     "last": "GUPTA",
+     "party": "REP",
+     "votes": 22939
+    },
+    {
+     "name": "DONNA HOWARD (I)",
+     "first": "DONNA",
+     "last": "HOWARD",
+     "party": "DEM",
+     "votes": 72316
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 49,
+   "race": "STATE REPRESENTATIVE DISTRICT 49",
+   "total_votes": 87487,
+   "candidates": [
+    {
+     "name": "MONTSERRAT GARIBAY",
+     "first": "MONTSERRAT",
+     "last": "GARIBAY",
+     "party": "DEM",
+     "votes": 78685
+    },
+    {
+     "name": "ARSHIA PAPARI",
+     "first": "ARSHIA",
+     "last": "PAPARI",
+     "party": "G",
+     "votes": 8802
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 5,
+   "race": "STATE REPRESENTATIVE DISTRICT 5",
+   "total_votes": 70421,
+   "candidates": [
+    {
+     "name": "HECTOR GARZA",
+     "first": "HECTOR",
+     "last": "GARZA",
+     "party": "DEM",
+     "votes": 16229
+    },
+    {
+     "name": "COLE HEFNER (I)",
+     "first": "COLE",
+     "last": "HEFNER",
+     "party": "REP",
+     "votes": 54192
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 50,
+   "race": "STATE REPRESENTATIVE DISTRICT 50",
+   "total_votes": 59336,
+   "candidates": [
+    {
+     "name": "SAMANTHA LOPEZ-RESENDEZ",
+     "first": "SAMANTHA",
+     "last": "LOPEZ-RESENDEZ",
+     "party": "DEM",
+     "votes": 48804
+    },
+    {
+     "name": "HOWARD OLSEN",
+     "first": "HOWARD",
+     "last": "OLSEN",
+     "party": "REP",
+     "votes": 10532
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 51,
+   "race": "STATE REPRESENTATIVE DISTRICT 51",
+   "total_votes": 64131,
+   "candidates": [
+    {
+     "name": "MARIA LUISA \"LULU\" FLORES (I)",
+     "first": "MARIA LUISA",
+     "last": "\"LULU\" FLORES",
+     "party": "DEM",
+     "votes": 54825
+    },
+    {
+     "name": "JESSICA MARTINEZ",
+     "first": "JESSICA",
+     "last": "MARTINEZ",
+     "party": "REP",
+     "votes": 9306
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 52,
+   "race": "STATE REPRESENTATIVE DISTRICT 52",
+   "total_votes": 104939,
+   "candidates": [
+    {
+     "name": "CAROLINE HARRIS DAVILA (I)",
+     "first": "CAROLINE HARRIS",
+     "last": "DAVILA",
+     "party": "REP",
+     "votes": 48404
+    },
+    {
+     "name": "CHRIS JIMENEZ",
+     "first": "CHRIS",
+     "last": "JIMENEZ",
+     "party": "DEM",
+     "votes": 56535
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 53,
+   "race": "STATE REPRESENTATIVE DISTRICT 53",
+   "total_votes": 83305,
+   "candidates": [
+    {
+     "name": "KATHRYN HARTMANN",
+     "first": "KATHRYN",
+     "last": "HARTMANN",
+     "party": "DEM",
+     "votes": 22539
+    },
+    {
+     "name": "WES VIRDELL (I)",
+     "first": "WES",
+     "last": "VIRDELL",
+     "party": "REP",
+     "votes": 60766
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 54,
+   "race": "STATE REPRESENTATIVE DISTRICT 54",
+   "total_votes": 48518,
+   "candidates": [
+    {
+     "name": "BRAD BUCKLEY (I)",
+     "first": "BRAD",
+     "last": "BUCKLEY",
+     "party": "REP",
+     "votes": 26146
+    },
+    {
+     "name": "DAWN RICHARDSON",
+     "first": "DAWN",
+     "last": "RICHARDSON",
+     "party": "DEM",
+     "votes": 22372
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 55,
+   "race": "STATE REPRESENTATIVE DISTRICT 55",
+   "total_votes": 60337,
+   "candidates": [
+    {
+     "name": "HILLARY HICKLAND (I)",
+     "first": "HILLARY",
+     "last": "HICKLAND",
+     "party": "REP",
+     "votes": 29959
+    },
+    {
+     "name": "AMELIA RABROKER",
+     "first": "AMELIA",
+     "last": "RABROKER",
+     "party": "DEM",
+     "votes": 30378
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 56,
+   "race": "STATE REPRESENTATIVE DISTRICT 56",
+   "total_votes": 69024,
+   "candidates": [
+    {
+     "name": "PAT CURRY (I)",
+     "first": "PAT",
+     "last": "CURRY",
+     "party": "REP",
+     "votes": 42125
+    },
+    {
+     "name": "ASHLEY BEAN THORNTON",
+     "first": "ASHLEY BEAN",
+     "last": "THORNTON",
+     "party": "DEM",
+     "votes": 26899
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 57,
+   "race": "STATE REPRESENTATIVE DISTRICT 57",
+   "total_votes": 79489,
+   "candidates": [
+    {
+     "name": "DARREN HAMILTON",
+     "first": "DARREN",
+     "last": "HAMILTON",
+     "party": "L",
+     "votes": 1900
+    },
+    {
+     "name": "RICHARD HAYES (I)",
+     "first": "RICHARD",
+     "last": "HAYES",
+     "party": "REP",
+     "votes": 40254
+    },
+    {
+     "name": "RAY STITH",
+     "first": "RAY",
+     "last": "STITH",
+     "party": "DEM",
+     "votes": 37335
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 58,
+   "race": "STATE REPRESENTATIVE DISTRICT 58",
+   "total_votes": 72491,
+   "candidates": [
+    {
+     "name": "HELEN KERWIN (I)",
+     "first": "HELEN",
+     "last": "KERWIN",
+     "party": "REP",
+     "votes": 49133
+    },
+    {
+     "name": "CHRIS OLDHAM",
+     "first": "CHRIS",
+     "last": "OLDHAM",
+     "party": "DEM",
+     "votes": 23358
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 59,
+   "race": "STATE REPRESENTATIVE DISTRICT 59",
+   "total_votes": 65618,
+   "candidates": [
+    {
+     "name": "SHELBY SLAWSON (I)",
+     "first": "SHELBY",
+     "last": "SLAWSON",
+     "party": "REP",
+     "votes": 49009
+    },
+    {
+     "name": "ANDREW TURNER",
+     "first": "ANDREW",
+     "last": "TURNER",
+     "party": "DEM",
+     "votes": 16609
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 6,
+   "race": "STATE REPRESENTATIVE DISTRICT 6",
+   "total_votes": 69186,
+   "candidates": [
+    {
+     "name": "DANIEL ALDERS (I)",
+     "first": "DANIEL",
+     "last": "ALDERS",
+     "party": "REP",
+     "votes": 44428
+    },
+    {
+     "name": "LORENZO JOHNSON",
+     "first": "LORENZO",
+     "last": "JOHNSON",
+     "party": "DEM",
+     "votes": 24758
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 60,
+   "race": "STATE REPRESENTATIVE DISTRICT 60",
+   "total_votes": 88108,
+   "candidates": [
+    {
+     "name": "KRISSY GUESS",
+     "first": "KRISSY",
+     "last": "GUESS",
+     "party": "DEM",
+     "votes": 18704
+    },
+    {
+     "name": "MIKE OLCOTT (I)",
+     "first": "MIKE",
+     "last": "OLCOTT",
+     "party": "REP",
+     "votes": 69404
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 61,
+   "race": "STATE REPRESENTATIVE DISTRICT 61",
+   "total_votes": 91078,
+   "candidates": [
+    {
+     "name": "BRITTANY BLACK",
+     "first": "BRITTANY",
+     "last": "BLACK",
+     "party": "DEM",
+     "votes": 44626
+    },
+    {
+     "name": "ANISSA CHILMERAN",
+     "first": "ANISSA",
+     "last": "CHILMERAN",
+     "party": "G",
+     "votes": 1692
+    },
+    {
+     "name": "KERESA RICHARDSON (I)",
+     "first": "KERESA",
+     "last": "RICHARDSON",
+     "party": "REP",
+     "votes": 44760
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 62,
+   "race": "STATE REPRESENTATIVE DISTRICT 62",
+   "total_votes": 71660,
+   "candidates": [
+    {
+     "name": "SHELLEY LUTHER",
+     "first": "SHELLEY",
+     "last": "LUTHER",
+     "party": "REP",
+     "votes": 52697
+    },
+    {
+     "name": "CATHERINE THORNE",
+     "first": "CATHERINE",
+     "last": "THORNE",
+     "party": "DEM",
+     "votes": 18963
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 63,
+   "race": "STATE REPRESENTATIVE DISTRICT 63",
+   "total_votes": 73030,
+   "candidates": [
+    {
+     "name": "BEN BUMGARNER (I)",
+     "first": "BEN",
+     "last": "BUMGARNER",
+     "party": "REP",
+     "votes": 35738
+    },
+    {
+     "name": "DENISE WOOTEN",
+     "first": "DENISE",
+     "last": "WOOTEN",
+     "party": "DEM",
+     "votes": 37292
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 64,
+   "race": "STATE REPRESENTATIVE DISTRICT 64",
+   "total_votes": 83542,
+   "candidates": [
+    {
+     "name": "JULIE EVANS",
+     "first": "JULIE",
+     "last": "EVANS",
+     "party": "DEM",
+     "votes": 37970
+    },
+    {
+     "name": "ANDY HOPPER (I)",
+     "first": "ANDY",
+     "last": "HOPPER",
+     "party": "REP",
+     "votes": 45572
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 65,
+   "race": "STATE REPRESENTATIVE DISTRICT 65",
+   "total_votes": 89182,
+   "candidates": [
+    {
+     "name": "DETRICK DEBURR",
+     "first": "DETRICK",
+     "last": "DEBURR",
+     "party": "DEM",
+     "votes": 41926
+    },
+    {
+     "name": "MITCH LITTLE (I)",
+     "first": "MITCH",
+     "last": "LITTLE",
+     "party": "REP",
+     "votes": 47256
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 66,
+   "race": "STATE REPRESENTATIVE DISTRICT 66",
+   "total_votes": 85432,
+   "candidates": [
+    {
+     "name": "MATT SHAHEEN (I)",
+     "first": "MATT",
+     "last": "SHAHEEN",
+     "party": "REP",
+     "votes": 47373
+    },
+    {
+     "name": "SANDEEP SRIVASTAVA",
+     "first": "SANDEEP",
+     "last": "SRIVASTAVA",
+     "party": "DEM",
+     "votes": 38059
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 67,
+   "race": "STATE REPRESENTATIVE DISTRICT 67",
+   "total_votes": 84929,
+   "candidates": [
+    {
+     "name": "JEFF LEACH (I)",
+     "first": "JEFF",
+     "last": "LEACH",
+     "party": "REP",
+     "votes": 42566
+    },
+    {
+     "name": "JORDAN WHEATLEY",
+     "first": "JORDAN",
+     "last": "WHEATLEY",
+     "party": "DEM",
+     "votes": 42363
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 68,
+   "race": "STATE REPRESENTATIVE DISTRICT 68",
+   "total_votes": 74606,
+   "candidates": [
+    {
+     "name": "JASMINE HENDERSON",
+     "first": "JASMINE",
+     "last": "HENDERSON",
+     "party": "DEM",
+     "votes": 12841
+    },
+    {
+     "name": "DAVID SPILLER (I)",
+     "first": "DAVID",
+     "last": "SPILLER",
+     "party": "REP",
+     "votes": 61765
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 69,
+   "race": "STATE REPRESENTATIVE DISTRICT 69",
+   "total_votes": 53994,
+   "candidates": [
+    {
+     "name": "LEILANI BARNETT",
+     "first": "LEILANI",
+     "last": "BARNETT",
+     "party": "DEM",
+     "votes": 15228
+    },
+    {
+     "name": "JAMES B. FRANK (I)",
+     "first": "JAMES B.",
+     "last": "FRANK",
+     "party": "REP",
+     "votes": 38766
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 7,
+   "race": "STATE REPRESENTATIVE DISTRICT 7",
+   "total_votes": 64994,
+   "candidates": [
+    {
+     "name": "FANTASHA ALLEN",
+     "first": "FANTASHA",
+     "last": "ALLEN",
+     "party": "DEM",
+     "votes": 21236
+    },
+    {
+     "name": "JAY DEAN (I)",
+     "first": "JAY",
+     "last": "DEAN",
+     "party": "REP",
+     "votes": 43758
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 70,
+   "race": "STATE REPRESENTATIVE DISTRICT 70",
+   "total_votes": 65068,
+   "candidates": [
+    {
+     "name": "GEORGE FLINT",
+     "first": "GEORGE",
+     "last": "FLINT",
+     "party": "REP",
+     "votes": 27120
+    },
+    {
+     "name": "MIHAELA ELIZABETH PLESA (I)",
+     "first": "MIHAELA ELIZABETH",
+     "last": "PLESA",
+     "party": "DEM",
+     "votes": 37948
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 71,
+   "race": "STATE REPRESENTATIVE DISTRICT 71",
+   "total_votes": 56455,
+   "candidates": [
+    {
+     "name": "JAY HARDAWAY",
+     "first": "JAY",
+     "last": "HARDAWAY",
+     "party": "REP",
+     "votes": 41595
+    },
+    {
+     "name": "DIANA LUNA",
+     "first": "DIANA",
+     "last": "LUNA",
+     "party": "DEM",
+     "votes": 14860
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 72,
+   "race": "STATE REPRESENTATIVE DISTRICT 72",
+   "total_votes": 53273,
+   "candidates": [
+    {
+     "name": "DREW DARBY (I)",
+     "first": "DREW",
+     "last": "DARBY",
+     "party": "REP",
+     "votes": 38959
+    },
+    {
+     "name": "SHILOH SALAZAR",
+     "first": "SHILOH",
+     "last": "SALAZAR",
+     "party": "DEM",
+     "votes": 14314
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 73,
+   "race": "STATE REPRESENTATIVE DISTRICT 73",
+   "total_votes": 112730,
+   "candidates": [
+    {
+     "name": "MERRIE FOX",
+     "first": "MERRIE",
+     "last": "FOX",
+     "party": "DEM",
+     "votes": 39380
+    },
+    {
+     "name": "CARRIE ISAAC (I)",
+     "first": "CARRIE",
+     "last": "ISAAC",
+     "party": "REP",
+     "votes": 73350
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 74,
+   "race": "STATE REPRESENTATIVE DISTRICT 74",
+   "total_votes": 48271,
+   "candidates": [
+    {
+     "name": "ROBERT GARZA",
+     "first": "ROBERT",
+     "last": "GARZA",
+     "party": "REP",
+     "votes": 17066
+    },
+    {
+     "name": "EDDIE MORALES, JR (I)",
+     "first": "EDDIE",
+     "last": "MORALES, JR",
+     "party": "DEM",
+     "votes": 31205
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 75,
+   "race": "STATE REPRESENTATIVE DISTRICT 75",
+   "total_votes": 36534,
+   "candidates": [
+    {
+     "name": "MARY E GONZALEZ (I)",
+     "first": "MARY E",
+     "last": "GONZALEZ",
+     "party": "DEM",
+     "votes": 36534
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 76,
+   "race": "STATE REPRESENTATIVE DISTRICT 76",
+   "total_votes": 66823,
+   "candidates": [
+    {
+     "name": "LINDA HOWELL",
+     "first": "LINDA",
+     "last": "HOWELL",
+     "party": "REP",
+     "votes": 22602
+    },
+    {
+     "name": "SULEMAN LALANI (I)",
+     "first": "SULEMAN",
+     "last": "LALANI",
+     "party": "DEM",
+     "votes": 44221
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 77,
+   "race": "STATE REPRESENTATIVE DISTRICT 77",
+   "total_votes": 42358,
+   "candidates": [
+    {
+     "name": "HUMBERTO PEREZ",
+     "first": "HUMBERTO",
+     "last": "PEREZ",
+     "party": "REP",
+     "votes": 8760
+    },
+    {
+     "name": "VINCENT \"VINCE\" PEREZ (I)",
+     "first": "VINCENT \"VINCE\"",
+     "last": "PEREZ",
+     "party": "DEM",
+     "votes": 33598
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 78,
+   "race": "STATE REPRESENTATIVE DISTRICT 78",
+   "total_votes": 42758,
+   "candidates": [
+    {
+     "name": "JOE MOODY (I)",
+     "first": "JOE",
+     "last": "MOODY",
+     "party": "DEM",
+     "votes": 42758
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 79,
+   "race": "STATE REPRESENTATIVE DISTRICT 79",
+   "total_votes": 52976,
+   "candidates": [
+    {
+     "name": "CLAUDIA ORDAZ (I)",
+     "first": "CLAUDIA",
+     "last": "ORDAZ",
+     "party": "DEM",
+     "votes": 37999
+    },
+    {
+     "name": "JESSE ROMERO",
+     "first": "JESSE",
+     "last": "ROMERO",
+     "party": "REP",
+     "votes": 14977
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 8,
+   "race": "STATE REPRESENTATIVE DISTRICT 8",
+   "total_votes": 61490,
+   "candidates": [
+    {
+     "name": "JEFF CHAVEZ",
+     "first": "JEFF",
+     "last": "CHAVEZ",
+     "party": "DEM",
+     "votes": 15568
+    },
+    {
+     "name": "CODY HARRIS (I)",
+     "first": "CODY",
+     "last": "HARRIS",
+     "party": "REP",
+     "votes": 45922
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 80,
+   "race": "STATE REPRESENTATIVE DISTRICT 80",
+   "total_votes": 45547,
+   "candidates": [
+    {
+     "name": "CECILIA CASTELLANO",
+     "first": "CECILIA",
+     "last": "CASTELLANO",
+     "party": "DEM",
+     "votes": 24028
+    },
+    {
+     "name": "DON MCLAUGHLIN (I)",
+     "first": "DON",
+     "last": "MCLAUGHLIN",
+     "party": "REP",
+     "votes": 21519
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 81,
+   "race": "STATE REPRESENTATIVE DISTRICT 81",
+   "total_votes": 33014,
+   "candidates": [
+    {
+     "name": "BROOKS LANDGRAF (I)",
+     "first": "BROOKS",
+     "last": "LANDGRAF",
+     "party": "REP",
+     "votes": 22297
+    },
+    {
+     "name": "CEASAR SANCHEZ",
+     "first": "CEASAR",
+     "last": "SANCHEZ",
+     "party": "DEM",
+     "votes": 10717
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 82,
+   "race": "STATE REPRESENTATIVE DISTRICT 82",
+   "total_votes": 46858,
+   "candidates": [
+    {
+     "name": "CATHY BROADRICK",
+     "first": "CATHY",
+     "last": "BROADRICK",
+     "party": "DEM",
+     "votes": 12448
+    },
+    {
+     "name": "TOM CRADDICK (I)",
+     "first": "TOM",
+     "last": "CRADDICK",
+     "party": "REP",
+     "votes": 34410
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 83,
+   "race": "STATE REPRESENTATIVE DISTRICT 83",
+   "total_votes": 68453,
+   "candidates": [
+    {
+     "name": "DUSTIN BURROWS (I)",
+     "first": "DUSTIN",
+     "last": "BURROWS",
+     "party": "REP",
+     "votes": 50310
+    },
+    {
+     "name": "MALIK WILLIAMS",
+     "first": "MALIK",
+     "last": "WILLIAMS",
+     "party": "DEM",
+     "votes": 18143
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 84,
+   "race": "STATE REPRESENTATIVE DISTRICT 84",
+   "total_votes": 48893,
+   "candidates": [
+    {
+     "name": "MARGARET DURHAM",
+     "first": "MARGARET",
+     "last": "DURHAM",
+     "party": "DEM",
+     "votes": 22870
+    },
+    {
+     "name": "CARL TEPPER (I)",
+     "first": "CARL",
+     "last": "TEPPER",
+     "party": "REP",
+     "votes": 26023
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 85,
+   "race": "STATE REPRESENTATIVE DISTRICT 85",
+   "total_votes": 79728,
+   "candidates": [
+    {
+     "name": "LAWRENCE BRANDYBURG",
+     "first": "LAWRENCE",
+     "last": "BRANDYBURG",
+     "party": "DEM",
+     "votes": 28613
+    },
+    {
+     "name": "DENNIS \"GOOSE\" GEESAMAN",
+     "first": "DENNIS \"GOOSE\"",
+     "last": "GEESAMAN",
+     "party": "REP",
+     "votes": 51115
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 86,
+   "race": "STATE REPRESENTATIVE DISTRICT 86",
+   "total_votes": 62258,
+   "candidates": [
+    {
+     "name": "HOLLY JEFFREYS",
+     "first": "HOLLY",
+     "last": "JEFFREYS",
+     "party": "REP",
+     "votes": 47159
+    },
+    {
+     "name": "CULLIN KNUTSON",
+     "first": "CULLIN",
+     "last": "KNUTSON",
+     "party": "DEM",
+     "votes": 15099
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 87,
+   "race": "STATE REPRESENTATIVE DISTRICT 87",
+   "total_votes": 43149,
+   "candidates": [
+    {
+     "name": "CAROLINE FAIRLY (I)",
+     "first": "CAROLINE",
+     "last": "FAIRLY",
+     "party": "REP",
+     "votes": 30200
+    },
+    {
+     "name": "DIANA LOYA",
+     "first": "DIANA",
+     "last": "LOYA",
+     "party": "DEM",
+     "votes": 12949
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 88,
+   "race": "STATE REPRESENTATIVE DISTRICT 88",
+   "total_votes": 46747,
+   "candidates": [
+    {
+     "name": "HEATHER J. WALLACE",
+     "first": "HEATHER",
+     "last": "J. WALLACE",
+     "party": "DEM",
+     "votes": 10259
+    },
+    {
+     "name": "KEN KING (I)",
+     "first": "KEN",
+     "last": "KING",
+     "party": "REP",
+     "votes": 36488
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 89,
+   "race": "STATE REPRESENTATIVE DISTRICT 89",
+   "total_votes": 86920,
+   "candidates": [
+    {
+     "name": "ANGIE CARRAWAY",
+     "first": "ANGIE",
+     "last": "CARRAWAY",
+     "party": "DEM",
+     "votes": 44156
+    },
+    {
+     "name": "CANDY NOBLE (I)",
+     "first": "CANDY",
+     "last": "NOBLE",
+     "party": "REP",
+     "votes": 42764
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 9,
+   "race": "STATE REPRESENTATIVE DISTRICT 9",
+   "total_votes": 67481,
+   "candidates": [
+    {
+     "name": "SHELLEY TATUM",
+     "first": "SHELLEY",
+     "last": "TATUM",
+     "party": "DEM",
+     "votes": 17582
+    },
+    {
+     "name": "ROCKY THIGPEN",
+     "first": "ROCKY",
+     "last": "THIGPEN",
+     "party": "REP",
+     "votes": 49899
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 90,
+   "race": "STATE REPRESENTATIVE DISTRICT 90",
+   "total_votes": 37460,
+   "candidates": [
+    {
+     "name": "RAMON ROMERO, JR (I)",
+     "first": "RAMON",
+     "last": "ROMERO, JR",
+     "party": "DEM",
+     "votes": 37460
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 91,
+   "race": "STATE REPRESENTATIVE DISTRICT 91",
+   "total_votes": 62678,
+   "candidates": [
+    {
+     "name": "DAVID LOWE (I)",
+     "first": "DAVID",
+     "last": "LOWE",
+     "party": "REP",
+     "votes": 33009
+    },
+    {
+     "name": "YISAK WORKU",
+     "first": "YISAK",
+     "last": "WORKU",
+     "party": "DEM",
+     "votes": 29669
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 92,
+   "race": "STATE REPRESENTATIVE DISTRICT 92",
+   "total_votes": 45565,
+   "candidates": [
+    {
+     "name": "SALMAN BHOJANI (I)",
+     "first": "SALMAN",
+     "last": "BHOJANI",
+     "party": "DEM",
+     "votes": 30501
+    },
+    {
+     "name": "JP WOODRUFF",
+     "first": "JP",
+     "last": "WOODRUFF",
+     "party": "REP",
+     "votes": 15064
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 93,
+   "race": "STATE REPRESENTATIVE DISTRICT 93",
+   "total_votes": 77134,
+   "candidates": [
+    {
+     "name": "ALAN BLAYLOCK",
+     "first": "ALAN",
+     "last": "BLAYLOCK",
+     "party": "REP",
+     "votes": 38162
+    },
+    {
+     "name": "ERICKA LOMICK",
+     "first": "ERICKA",
+     "last": "LOMICK",
+     "party": "DEM",
+     "votes": 38972
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 94,
+   "race": "STATE REPRESENTATIVE DISTRICT 94",
+   "total_votes": 69972,
+   "candidates": [
+    {
+     "name": "CHERYL BEAN",
+     "first": "CHERYL",
+     "last": "BEAN",
+     "party": "REP",
+     "votes": 33259
+    },
+    {
+     "name": "KATIE O'BRIEN DUZAN",
+     "first": "KATIE",
+     "last": "O'BRIEN DUZAN",
+     "party": "DEM",
+     "votes": 36713
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 95,
+   "race": "STATE REPRESENTATIVE DISTRICT 95",
+   "total_votes": 43460,
+   "candidates": [
+    {
+     "name": "NICOLE COLLIER (I)",
+     "first": "NICOLE",
+     "last": "COLLIER",
+     "party": "DEM",
+     "votes": 43460
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 96,
+   "race": "STATE REPRESENTATIVE DISTRICT 96",
+   "total_votes": 74944,
+   "candidates": [
+    {
+     "name": "ELLEN FLEISCHMANN",
+     "first": "ELLEN",
+     "last": "FLEISCHMANN",
+     "party": "REP",
+     "votes": 35429
+    },
+    {
+     "name": "EBONY M. TURNER",
+     "first": "EBONY M.",
+     "last": "TURNER",
+     "party": "DEM",
+     "votes": 39515
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 97,
+   "race": "STATE REPRESENTATIVE DISTRICT 97",
+   "total_votes": 80531,
+   "candidates": [
+    {
+     "name": "BETH LLEWELLYN MCLAUGHLIN",
+     "first": "BETH",
+     "last": "LLEWELLYN MCLAUGHLIN",
+     "party": "DEM",
+     "votes": 40985
+    },
+    {
+     "name": "JOHN W. MCQUEENEY (I)",
+     "first": "JOHN W.",
+     "last": "MCQUEENEY",
+     "party": "REP",
+     "votes": 39546
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 98,
+   "race": "STATE REPRESENTATIVE DISTRICT 98",
+   "total_votes": 86439,
+   "candidates": [
+    {
+     "name": "CATE BRENNAN",
+     "first": "CATE",
+     "last": "BRENNAN",
+     "party": "DEM",
+     "votes": 34645
+    },
+    {
+     "name": "ARMIN MIZANI",
+     "first": "ARMIN",
+     "last": "MIZANI",
+     "party": "REP",
+     "votes": 51794
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "house",
+   "district": 99,
+   "race": "STATE REPRESENTATIVE DISTRICT 99",
+   "total_votes": 66332,
+   "candidates": [
+    {
+     "name": "CHARLIE GEREN (I)",
+     "first": "CHARLIE",
+     "last": "GEREN",
+     "party": "REP",
+     "votes": 35109
+    },
+    {
+     "name": "MICHELLE WINDER",
+     "first": "MICHELLE",
+     "last": "WINDER",
+     "party": "DEM",
+     "votes": 31223
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 1,
+   "race": "STATE SENATOR, DISTRICT 1",
+   "total_votes": 320567,
+   "candidates": [
+    {
+     "name": "LATICIA AMBROZ",
+     "first": "LATICIA",
+     "last": "AMBROZ",
+     "party": "DEM",
+     "votes": 91022
+    },
+    {
+     "name": "BRYAN HUGHES (I)",
+     "first": "BRYAN",
+     "last": "HUGHES",
+     "party": "REP",
+     "votes": 229545
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 11,
+   "race": "STATE SENATOR, DISTRICT 11",
+   "total_votes": 339712,
+   "candidates": [
+    {
+     "name": "SHANNON DICELY",
+     "first": "SHANNON",
+     "last": "DICELY",
+     "party": "DEM",
+     "votes": 164777
+    },
+    {
+     "name": "DENNIS PAUL",
+     "first": "DENNIS",
+     "last": "PAUL",
+     "party": "REP",
+     "votes": 174935
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 13,
+   "race": "STATE SENATOR, DISTRICT 13",
+   "total_votes": 202234,
+   "candidates": [
+    {
+     "name": "BORRIS L.  MILES (I)",
+     "first": "BORRIS L. ",
+     "last": "MILES",
+     "party": "DEM",
+     "votes": 202234
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 18,
+   "race": "STATE SENATOR, DISTRICT 18",
+   "total_votes": 361218,
+   "candidates": [
+    {
+     "name": "ERICA GILLUM",
+     "first": "ERICA",
+     "last": "GILLUM",
+     "party": "DEM",
+     "votes": 165093
+    },
+    {
+     "name": "LOIS W. KOLKHORST (I)",
+     "first": "LOIS W.",
+     "last": "KOLKHORST",
+     "party": "REP",
+     "votes": 196125
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 19,
+   "race": "STATE SENATOR, DISTRICT 19",
+   "total_votes": 279369,
+   "candidates": [
+    {
+     "name": "MARCUS CARDENAS",
+     "first": "MARCUS",
+     "last": "CARDENAS",
+     "party": "REP",
+     "votes": 100630
+    },
+    {
+     "name": "ROLAND GUTIERREZ (I)",
+     "first": "ROLAND",
+     "last": "GUTIERREZ",
+     "party": "DEM",
+     "votes": 178739
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 2,
+   "race": "STATE SENATOR, DISTRICT 2",
+   "total_votes": 351187,
+   "candidates": [
+    {
+     "name": "KEENEN COLBERT",
+     "first": "KEENEN",
+     "last": "COLBERT",
+     "party": "DEM",
+     "votes": 170824
+    },
+    {
+     "name": "BOB HALL (I)",
+     "first": "BOB",
+     "last": "HALL",
+     "party": "REP",
+     "votes": 180363
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 21,
+   "race": "STATE SENATOR, DISTRICT 21",
+   "total_votes": 272243,
+   "candidates": [
+    {
+     "name": "JULIE DAHLBERG",
+     "first": "JULIE",
+     "last": "DAHLBERG",
+     "party": "REP",
+     "votes": 84190
+    },
+    {
+     "name": "JUDITH ZAFFIRINI (I)",
+     "first": "JUDITH",
+     "last": "ZAFFIRINI",
+     "party": "DEM",
+     "votes": 188053
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 22,
+   "race": "STATE SENATOR, DISTRICT 22",
+   "total_votes": 333044,
+   "candidates": [
+    {
+     "name": "DAVID COOK",
+     "first": "DAVID",
+     "last": "COOK",
+     "party": "REP",
+     "votes": 186433
+    },
+    {
+     "name": "AMY MARTINEZ-SALAS",
+     "first": "AMY",
+     "last": "MARTINEZ-SALAS",
+     "party": "DEM",
+     "votes": 146611
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 24,
+   "race": "STATE SENATOR, DISTRICT 24",
+   "total_votes": 339080,
+   "candidates": [
+    {
+     "name": "PETE FLORES (I)",
+     "first": "PETE",
+     "last": "FLORES",
+     "party": "REP",
+     "votes": 192054
+    },
+    {
+     "name": "JOE PAZ HERRERA",
+     "first": "JOE PAZ",
+     "last": "HERRERA",
+     "party": "DEM",
+     "votes": 147026
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 26,
+   "race": "STATE SENATOR, DISTRICT 26",
+   "total_votes": 213318,
+   "candidates": [
+    {
+     "name": "JOSE MENENDEZ (I)",
+     "first": "JOSE",
+     "last": "MENENDEZ",
+     "party": "DEM",
+     "votes": 179332
+    },
+    {
+     "name": "JULI\u00c1N VILLARREAL",
+     "first": "JULI\u00c1N",
+     "last": "VILLARREAL",
+     "party": "G",
+     "votes": 33986
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 28,
+   "race": "STATE SENATOR, DISTRICT 28",
+   "total_votes": 277121,
+   "candidates": [
+    {
+     "name": "CHARLES PERRY (I)",
+     "first": "CHARLES",
+     "last": "PERRY",
+     "party": "REP",
+     "votes": 193190
+    },
+    {
+     "name": "RILEY RODRIQUEZ",
+     "first": "RILEY",
+     "last": "RODRIQUEZ",
+     "party": "DEM",
+     "votes": 83931
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 3,
+   "race": "STATE SENATOR, DISTRICT 3",
+   "total_votes": 304904,
+   "candidates": [
+    {
+     "name": "TRENT ASHBY",
+     "first": "TRENT",
+     "last": "ASHBY",
+     "party": "REP",
+     "votes": 211888
+    },
+    {
+     "name": "BOBBY TILLMAN",
+     "first": "BOBBY",
+     "last": "TILLMAN",
+     "party": "DEM",
+     "votes": 93016
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 31,
+   "race": "STATE SENATOR, DISTRICT 31",
+   "total_votes": 223511,
+   "candidates": [
+    {
+     "name": "JOHN BETANCOURT",
+     "first": "JOHN",
+     "last": "BETANCOURT",
+     "party": "DEM",
+     "votes": 60021
+    },
+    {
+     "name": "KEVIN SPARKS (I)",
+     "first": "KEVIN",
+     "last": "SPARKS",
+     "party": "REP",
+     "votes": 163490
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 4,
+   "race": "STATE SENATOR, DISTRICT 4",
+   "total_votes": 352547,
+   "candidates": [
+    {
+     "name": "RON C. ANGELETTI",
+     "first": "RON C.",
+     "last": "ANGELETTI",
+     "party": "DEM",
+     "votes": 147017
+    },
+    {
+     "name": "BRETT W. LIGON (I)",
+     "first": "BRETT W.",
+     "last": "LIGON",
+     "party": "REP",
+     "votes": 205530
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 5,
+   "race": "STATE SENATOR, DISTRICT 5",
+   "total_votes": 371292,
+   "candidates": [
+    {
+     "name": "CHARLES SCHWERTNER (I)",
+     "first": "CHARLES",
+     "last": "SCHWERTNER",
+     "party": "REP",
+     "votes": 197912
+    },
+    {
+     "name": "PAUL THOMASSON",
+     "first": "PAUL",
+     "last": "THOMASSON",
+     "party": "DEM",
+     "votes": 173380
+    }
+   ]
+  },
+  {
+   "election": "general",
+   "sos_election_id": 53815,
+   "sos_version": "enr/53815/117/",
+   "chamber": "senate",
+   "district": 9,
+   "race": "STATE SENATOR, DISTRICT 9",
+   "total_votes": 341999,
+   "candidates": [
+    {
+     "name": "TAYLOR REHMET",
+     "first": "TAYLOR",
+     "last": "REHMET",
+     "party": "DEM",
+     "votes": 175288
+    },
+    {
+     "name": "LEIGH WAMBSGANSS",
+     "first": "LEIGH",
+     "last": "WAMBSGANSS",
+     "party": "REP",
+     "votes": 166711
+    }
+   ]
+  },
+  {
+   "election": "special",
+   "sos_election_id": 66734,
+   "sos_version": "enr/66734/9/",
+   "chamber": "house",
+   "district": 93,
+   "race": "STATE REPRESENTATIVE DISTRICT 93 - UNEXPIRED TERM",
+   "total_votes": 76978,
+   "candidates": [
+    {
+     "name": "ALAN BLAYLOCK",
+     "first": "ALAN",
+     "last": "BLAYLOCK",
+     "party": "REP",
+     "votes": 37632
+    },
+    {
+     "name": "ERICKA LOMICK",
+     "first": "ERICKA",
+     "last": "LOMICK",
+     "party": "DEM",
+     "votes": 39346
+    }
+   ]
+  },
+  {
+   "election": "special",
+   "sos_election_id": 66618,
+   "sos_version": "enr/66618/32/",
+   "chamber": "senate",
+   "district": 22,
+   "race": "STATE SENATOR, DISTRICT 22 - UNEXPIRED TERM",
+   "total_votes": 331642,
+   "candidates": [
+    {
+     "name": "DAVID COOK",
+     "first": "DAVID",
+     "last": "COOK",
+     "party": "REP",
+     "votes": 186328
+    },
+    {
+     "name": "AMY MARTINEZ-SALAS",
+     "first": "AMY",
+     "last": "MARTINEZ-SALAS",
+     "party": "DEM",
+     "votes": 145314
+    }
+   ]
+  }
+ ]
+}
