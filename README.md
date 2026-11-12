@@ -1,21 +1,22 @@
 # Texas legislator lookup
 
-Enter a Texas ZIP code and get your state representative and state senator, with their email addresses. Each one has a "Write a message" button that opens a prefilled draft in the visitor's own email app or Gmail. GitHub Pages cannot send email, so the visitor sends it themselves. Updated with the November 3, 2026 general election results.
+Enter a Texas street address and ZIP code and get your state representative and state senator, updated with the November 3, 2026 general election results. A writing space under the results turns your message into a prefilled draft in your own email app or Gmail. GitHub Pages cannot send email, so the visitor sends it themselves.
 
 It is a static page (`index.html` plus two JSON files), so it runs on GitHub Pages with no server.
 
 ## How it works
 
-- `data/zips.json` maps each ZIP code to the House and Senate districts it touches, with the share of the ZIP's residents in each.
+- The address is matched to its House and Senate districts by the [U.S. Census Bureau geocoder](https://geocoding.geo.census.gov/geocoder/), called straight from the browser. The address goes only to the Census Bureau.
+- If the geocoder cannot place the address, the page falls back to `data/zips.json`, which maps each ZIP code to every district it touches, and shows all of them, most likely first.
 - `data/legislators.json` lists the member for each of the 150 House and 31 Senate districts.
-- Many ZIP codes span more than one district. The page shows every district a ZIP touches, most likely first, and links to the state's address lookup, [Who Represents Me](https://wrm.capitol.texas.gov/home), for a definite answer.
 
 ## Data sources
 
 | Data | Source |
 | --- | --- |
 | Election winners | Texas Secretary of State returns for the November 3, 2026 general election, retrieved November 12, 2026. Unofficial until canvassed. |
-| ZIP to district | Texas Legislative Council "ZIP Codes by District" (Red-385) reports for PLANH2316 and PLANS2168, 2020 Census population |
+| Address to district | U.S. Census Bureau geocoder, current state legislative district layers |
+| ZIP to district (fallback) | Texas Legislative Council "ZIP Codes by District" (Red-385) reports for PLANH2316 and PLANS2168, 2020 Census population |
 | Sitting members and emails | [Open States](https://openstates.org/) current Texas legislators |
 | Name cross-check | Wikipedia's 2026 Texas House and Senate election pages |
 
