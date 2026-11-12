@@ -7,104 +7,112 @@
 <meta name="description" content="Enter a Texas ZIP code to find your state representative and state senator, updated with the November 2026 election results.">
 <style>
   :root {
-    --bg: #f6f4ef; --surface: #ffffff; --text: #1c1b19; --muted: #5f5b53;
-    --line: #dedad0; --accent: #1f4e79; --accent-text: #ffffff;
-    --rep: #b3261e; --dem: #1a56a8; --other: #5f5b53;
-    --note-bg: #fff6d9; --note-line: #e6cf7a; --focus: #c2410c;
+    --paper: #f2eee3; --sheet: #fbf9f3; --ink: #17150f; --soft: #57524a;
+    --rule: #cfc8b6; --mark: #f1dc6b; --hot: #a3361a;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #151618; --surface: #1f2124; --text: #ecebe7; --muted: #a6a39b;
-      --line: #35383d; --accent: #8fc1f2; --accent-text: #10202f;
-      --rep: #f08a82; --dem: #8db8f5; --other: #a6a39b;
-      --note-bg: #33290c; --note-line: #6e5a1c; --focus: #fdba74;
+      --paper: #171613; --sheet: #201f1b; --ink: #ebe6d8; --soft: #a9a393;
+      --rule: #3b3932; --mark: #4a4111; --hot: #f0906f;
     }
   }
   * { box-sizing: border-box; }
-  body {
-    margin: 0; background: var(--bg); color: var(--text);
-    font: 17px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 18px/1.5 var(--serif); }
+  main { max-width: 660px; margin: 0 auto; padding: 0 20px 64px; }
+  a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  a:hover { color: var(--hot); }
+  :focus-visible { outline: 3px solid var(--hot); outline-offset: 3px; }
+
+  /* masthead */
+  .kicker {
+    font: 0.72rem/1.4 var(--mono); letter-spacing: 0.09em; text-transform: uppercase;
+    border-top: 6px solid var(--ink); border-bottom: 1px solid var(--ink);
+    padding: 9px 0 8px; margin: 28px 0 0; display: flex; flex-wrap: wrap; gap: 4px 20px; justify-content: space-between;
   }
-  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 48px; }
-  h1 { font-size: clamp(1.6rem, 5vw, 2.2rem); line-height: 1.15; margin: 0 0 8px; text-wrap: balance; }
-  .lede { color: var(--muted); margin: 0 0 24px; }
-  #lookup { display: flex; gap: 8px; flex-wrap: wrap; align-items: end; }
-  label { display: block; font-weight: 600; margin-bottom: 6px; }
+  h1 { font-size: clamp(2.1rem, 8.5vw, 3.3rem); line-height: 1.02; letter-spacing: -0.02em; font-weight: 700; margin: 26px 0 14px; max-width: 12em; }
+  .lede { margin: 0 0 8px; max-width: 34em; }
+
+  /* numbered steps */
+  main { counter-reset: step; }
+  h2.step {
+    counter-increment: step; font: 0.78rem/1.3 var(--mono); letter-spacing: 0.09em; text-transform: uppercase;
+    border-top: 1px solid var(--ink); padding-top: 9px; margin: 44px 0 16px; display: flex; gap: 14px;
+  }
+  h2.step::before { content: counter(step, decimal-leading-zero); color: var(--hot); }
+
+  /* form fields: ruled lines, like a paper form */
+  label { display: block; font: 0.72rem/1.3 var(--mono); letter-spacing: 0.07em; text-transform: uppercase; color: var(--soft); margin-bottom: 2px; }
+  input[type="text"], select {
+    width: 100%; font: inherit; font-size: 1.15rem; color: var(--ink); background: transparent;
+    border: 0; border-bottom: 2px solid var(--ink); border-radius: 0; padding: 4px 0 5px;
+  }
+  input::placeholder, textarea::placeholder { color: var(--soft); opacity: 0.65; font-style: italic; }
+  #lookup { display: flex; gap: 18px 24px; flex-wrap: wrap; align-items: end; }
   .field { flex: 1 1 180px; }
   .field.wide { flex: 3 1 260px; }
-  .field.narrow { flex: 1 1 110px; }
-  #zip { letter-spacing: 0.08em; }
-  .compose select {
-    width: 100%; font: inherit; font-size: 1rem; padding: 8px 10px;
-    border: 2px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text);
-  }
-  input[type="text"] {
-    width: 100%; font: inherit; font-size: 1.15rem; padding: 10px 12px;
-    border: 2px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text);
-  }
+  .field.narrow { flex: 0 1 110px; }
   button {
-    font: inherit; font-weight: 600; padding: 12px 20px; border-radius: 8px; cursor: pointer;
-    border: 2px solid var(--accent); background: var(--accent); color: var(--accent-text);
+    font: 0.8rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer;
+    padding: 14px 18px; border: 2px solid var(--ink); border-radius: 0; background: var(--ink); color: var(--paper);
   }
-  button.small {
-    padding: 4px 10px; font-size: 0.85rem; background: transparent; color: var(--accent);
-    border-width: 1px;
+  button:hover { background: var(--hot); border-color: var(--hot); }
+  button.ghost, button.small { background: transparent; color: var(--ink); }
+  button.ghost:hover, button.small:hover { background: transparent; color: var(--hot); border-color: var(--hot); }
+  button.small { padding: 6px 8px; font-size: 0.68rem; border-width: 1px; }
+  button.small.solid { background: var(--ink); color: var(--paper); }
+  button.small.solid:hover { background: var(--hot); color: var(--paper); }
+
+  #message { margin-top: 22px; font-style: italic; }
+  .notice { background: var(--mark); padding: 12px 14px; margin: 22px 0 0; font-size: 0.95rem; font-style: normal; }
+  .sub { color: var(--soft); font-size: 0.95rem; font-style: italic; margin: 0 0 14px; }
+  #results > .sub { margin: 22px 0 0; }
+
+  /* a legislator: a directory entry, not a card */
+  .card { padding: 0 0 20px; margin-bottom: 20px; border-bottom: 1px dotted var(--soft); }
+  section > .card:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
+  .card h3 { font-size: 1.9rem; line-height: 1.1; letter-spacing: -0.01em; margin: 0 0 4px; }
+  .meta { font: 0.75rem/1.4 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; margin: 0 0 10px; }
+  .share { font: 0.72rem/1.3 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--hot); margin: 0 0 6px; }
+  .badge { display: block; font-style: italic; font-size: 0.98rem; margin: 0 0 2px; }
+  .email-row { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; margin-top: 10px; }
+  .email-row a { font: 0.92rem/1.3 var(--mono); overflow-wrap: anywhere; margin-right: 4px; }
+  .fine { color: var(--soft); font-size: 0.86rem; margin: 8px 0 0; max-width: 36em; }
+  .outgoing { margin-top: 14px; padding: 10px 0 0 14px; border-left: 3px solid var(--ink); font-size: 0.98rem; }
+  .outgoing .email-row { margin-top: 6px; }
+
+  /* the letter */
+  .compose { margin: 0; }
+  .compose > .sub { margin-bottom: 18px; }
+  .cfield { margin-bottom: 16px; }
+  .sheet { background: var(--sheet); border: 1px solid var(--rule); padding: 26px 24px 22px; margin: 22px 0 0; }
+  .letter { margin: 0; white-space: pre-line; line-height: 1.75rem; }
+  .sheet .cfield { margin: 1.75rem 0; }
+  .sheet label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .compose textarea {
+    display: block; width: 100%; min-height: 12.25rem; resize: vertical; font: inherit; color: var(--ink);
+    border: 0; border-radius: 0; padding: 0; line-height: 1.75rem; background-color: transparent;
+    background-image: repeating-linear-gradient(transparent, transparent calc(1.75rem - 1px), var(--rule) calc(1.75rem - 1px), var(--rule) 1.75rem);
+    background-attachment: local;
   }
-  :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
-  #message { margin-top: 20px; }
-  .notice {
-    background: var(--note-bg); border: 1px solid var(--note-line); border-radius: 8px;
-    padding: 12px 14px; margin: 16px 0; font-size: 0.95rem;
-  }
-  h2 { font-size: 1.15rem; margin: 32px 0 4px; }
-  .sub { color: var(--muted); font-size: 0.95rem; margin: 0 0 12px; }
-  #results > .sub { margin-top: 20px; }
-  .card {
-    background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
-    padding: 16px; margin-bottom: 12px; border-left: 6px solid var(--other);
-  }
-  .card.R { border-left-color: var(--rep); }
-  .card.D { border-left-color: var(--dem); }
-  .card h3 { margin: 0; font-size: 1.3rem; line-height: 1.2; }
-  .meta { color: var(--muted); font-size: 0.95rem; margin: 2px 0 10px; }
-  .badge {
-    display: inline-block; font-size: 0.8rem; font-weight: 600; padding: 2px 8px;
-    border-radius: 999px; border: 1px solid var(--line); margin: 0 6px 6px 0;
-  }
-  .share { font-weight: 600; font-size: 0.9rem; margin: 0 0 8px; }
-  .email-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 4px; }
-  .email-row a { color: var(--accent); font-weight: 600; overflow-wrap: anywhere; }
-  .fine { color: var(--muted); font-size: 0.88rem; margin: 6px 0 0; }
-  button.small.solid { background: var(--accent); color: var(--accent-text); }
-  .compose {
-    background: var(--surface); border: 2px solid var(--accent); border-radius: 10px;
-    padding: 16px; margin: 32px 0 16px;
-  }
-  .compose h2 { margin: 0 0 4px; font-size: 1.25rem; }
-  .compose .to { color: var(--muted); font-size: 0.9rem; margin: 0 0 12px; overflow-wrap: anywhere; }
-  .cfield { margin-bottom: 12px; }
-  .cfield label { font-size: 0.95rem; }
-  .compose input[type="text"], .compose textarea {
-    width: 100%; font: inherit; font-size: 1rem; letter-spacing: normal; padding: 8px 10px;
-    border: 2px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text);
-  }
-  .compose textarea { min-height: 9em; resize: vertical; display: block; }
-  .letter { color: var(--muted); font-size: 0.95rem; margin: 6px 0; white-space: pre-line; }
-  .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
-  .actions button { padding: 10px 14px; font-size: 0.95rem; }
-  .actions button.ghost { background: transparent; color: var(--accent); }
-  .cstatus { font-size: 0.9rem; margin: 10px 0 0; min-height: 1.2em; }
-  .cstatus.error { color: var(--rep); font-weight: 600; }
-  .outgoing { border-top: 1px dashed var(--line); margin-top: 12px; padding-top: 10px; font-size: 0.95rem; }
-  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.88rem; }
-  footer a, .notice a, .sub a { color: var(--accent); }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+  .cstatus { font-style: italic; font-size: 0.95rem; margin: 12px 0 0; min-height: 1.3em; }
+  .cstatus.error { color: var(--hot); font-style: normal; font-weight: 700; }
+
+  footer { margin-top: 64px; padding-top: 14px; border-top: 6px solid var(--ink); color: var(--soft); font-size: 0.86rem; }
+  footer p { max-width: 40em; }
+  footer strong { font: 0.72rem/1.3 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); display: block; margin-bottom: 4px; }
   .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 </style>
 </head>
 <body>
 <main>
-  <h1>Who represents me in the Texas Legislature?</h1>
-  <p class="lede">Enter your home address to find your Texas state representative and state senator, then write them a message. Updated with the November 3, 2026 election results.</p>
+  <p class="kicker"><span>Texas Legislature</span><span>Updated for the Nov. 3, 2026 election</span></p>
+  <h1>Who speaks for you in Austin?</h1>
+  <p class="lede">Give your home address. You get your state representative and your state senator, and a place to write to them.</p>
+
+  <h2 class="step">Where you live</h2>
 
   <form id="lookup" novalidate>
     <div class="field wide">
@@ -123,7 +131,7 @@
   <div id="results"></div>
 
   <footer>
-    <p><strong>About this data.</strong> Winners come from the Texas Secretary of State's returns for the November 3, 2026 general election, retrieved <span id="retrieved">November 12, 2026</span>. Results are unofficial until canvassed. Members elected in 2026 take office when the Legislature convenes on January 12, 2027.</p>
+    <p><strong>About this data</strong> Winners come from the Texas Secretary of State's returns for the November 3, 2026 general election, retrieved <span id="retrieved">November 12, 2026</span>. Results are unofficial until canvassed. Members elected in 2026 take office when the Legislature convenes on January 12, 2027.</p>
     <p>Districts are found by matching your address with the <a href="https://geocoding.geo.census.gov/geocoder/">U.S. Census Bureau geocoder</a>. If it cannot place your address, the tool falls back to your ZIP code, using the Texas Legislative Council's "ZIP Codes by District" reports, and shows every district that ZIP touches. You can double-check at <a href="https://wrm.capitol.texas.gov/home">Who Represents Me</a>.</p>
     <p>Email addresses for sitting members come from <a href="https://openstates.org/">Open States</a>. This site is not affiliated with the State of Texas. Messages are written and sent from your own email account. This site never sees them and stores nothing. Your address is sent only to the Census Bureau, to find your districts.</p>
   </footer>
@@ -235,10 +243,10 @@
     var f = el("form", "compose");
     f.noValidate = true;
     c.form = f;
-    c.title = el("h2", null, "Write your message");
+    c.title = el("h2", "step", "Write to them");
     c.title.tabIndex = -1;
     f.appendChild(c.title);
-    f.appendChild(el("p", "sub", "Write it here, then open it as a ready-to-send draft in your own email."));
+    f.appendChild(el("p", "sub", "Fill in the letter, then open it as a draft in your own email, addressed and ready to send."));
 
     function field(labelText, control, id) {
       var w = el("div", "cfield");
@@ -250,7 +258,7 @@
       f.appendChild(w);
       return control;
     }
-    c.select = field("Send to", el("select"), "c-to");
+    c.select = field("To", el("select"), "c-to");
     c.select.addEventListener("change", function () {
       c.person = recipients[c.select.selectedIndex] || null;
       c.status.textContent = "";
@@ -264,12 +272,15 @@
     c.subject.maxLength = 150;
     c.subject.value = "Message from a constituent";
 
+    var sheet = el("div", "sheet");
     c.greeting = el("p", "letter");
-    f.appendChild(c.greeting);
+    sheet.appendChild(c.greeting);
     c.message = field("Your message", el("textarea"), "c-message");
+    sheet.appendChild(c.message.parentNode);
     c.message.placeholder = "Say what you are writing about, what you want them to do, and why it matters to you.";
     c.signoff = el("p", "letter");
-    f.appendChild(c.signoff);
+    sheet.appendChild(c.signoff);
+    f.appendChild(sheet);
     c.name.addEventListener("input", function () { updateLetter(c); });
 
     var actions = el("div", "actions");
@@ -391,7 +402,7 @@
 
   function section(heading, title, pairs, members, termStart) {
     var s = el("section");
-    s.appendChild(el("h2", null, heading));
+    s.appendChild(el("h2", "step", heading));
     var split = pairs.length > 1;
     if (split) {
       var p = el("p", "sub", "This ZIP code is split between " + pairs.length + " districts. Yours is one of these, most likely the first.");
